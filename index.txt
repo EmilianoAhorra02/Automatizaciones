@@ -1,0 +1,3268 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seguro GNP - Cotiza tu Seguro de Auto GNP en minutos</title>
+        <style>
+            /*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+            :root {
+                --bs-blue: #0d6efd;
+                --bs-indigo: #6610f2;
+                --bs-purple: #6f42c1;
+                --bs-pink: #d63384;
+                --bs-red: #dc3545;
+                --bs-orange: #fd7e14;
+                --bs-yellow: #ffc107;
+                --bs-green: #198754;
+                --bs-teal: #20c997;
+                --bs-cyan: #0dcaf0;
+                --bs-black: #000;
+                --bs-white: #fff;
+                --bs-gray: #6c757d;
+                --bs-gray-dark: #343a40;
+                --bs-gray-100: #f8f9fa;
+                --bs-gray-200: #e9ecef;
+                --bs-gray-300: #dee2e6;
+                --bs-gray-400: #ced4da;
+                --bs-gray-500: #adb5bd;
+                --bs-gray-600: #6c757d;
+                --bs-gray-700: #495057;
+                --bs-gray-800: #343a40;
+                --bs-gray-900: #212529;
+                --bs-primary: #0d6efd;
+                --bs-secondary: #6c757d;
+                --bs-success: #198754;
+                --bs-info: #0dcaf0;
+                --bs-warning: #ffc107;
+                --bs-danger: #dc3545;
+                --bs-light: #f8f9fa;
+                --bs-dark: #212529;
+                --bs-primary-rgb: 13,110,253;
+                --bs-secondary-rgb: 108,117,125;
+                --bs-success-rgb: 25,135,84;
+                --bs-info-rgb: 13,202,240;
+                --bs-warning-rgb: 255,193,7;
+                --bs-danger-rgb: 220,53,69;
+                --bs-light-rgb: 248,249,250;
+                --bs-dark-rgb: 33,37,41;
+                --bs-white-rgb: 255,255,255;
+                --bs-black-rgb: 0,0,0;
+                --bs-body-color-rgb: 33,37,41;
+                --bs-body-bg-rgb: 255,255,255;
+                --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+                --bs-gradient: linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0));
+                --bs-body-font-family: var(--bs-font-sans-serif);
+                --bs-body-font-size: 1rem;
+                --bs-body-font-weight: 400;
+                --bs-body-line-height: 1.5;
+                --bs-body-color: #212529;
+                --bs-body-bg: #fff;
+                --bs-border-width: 1px;
+                --bs-border-style: solid;
+                --bs-border-color: #dee2e6;
+                --bs-border-color-translucent: rgba(0,0,0,.175);
+                --bs-border-radius: .375rem;
+                --bs-border-radius-sm: .25rem;
+                --bs-border-radius-lg: .5rem;
+                --bs-border-radius-xl: 1rem;
+                --bs-border-radius-2xl: 2rem;
+                --bs-border-radius-pill: 50rem;
+                --bs-link-color: #0d6efd;
+                --bs-link-hover-color: #0a58ca;
+                --bs-code-color: #d63384;
+                --bs-highlight-bg: #fff3cd
+            }
+
+            *,:after,:before {
+                box-sizing: border-box
+            }
+
+            @media (prefers-reduced-motion:no-preference) {
+                :root {
+                    scroll-behavior: smooth
+                }
+            }
+
+            body {
+                background-color: var(--bs-body-bg);
+                color: var(--bs-body-color);
+                font-family: var(--bs-body-font-family);
+                font-size: var(--bs-body-font-size);
+                font-weight: var(--bs-body-font-weight);
+                line-height: var(--bs-body-line-height);
+                margin: 0;
+                text-align: var(--bs-body-text-align);
+                -webkit-text-size-adjust: 100%;
+                -webkit-tap-highlight-color: transparent
+            }
+
+            .h1,.h2,.h3,.h4,h1,h2,h3,h4 {
+                font-weight: 500;
+                line-height: 1.2;
+                margin-bottom: .5rem;
+                margin-top: 0
+            }
+
+            .h1,h1 {
+                font-size: calc(1.375rem + 1.5vw)
+            }
+
+            @media (min-width: 1200px) {
+                .h1,h1 {
+                    font-size:2.5rem
+                }
+            }
+
+            .h2,h2 {
+                font-size: calc(1.325rem + .9vw)
+            }
+
+            @media (min-width: 1200px) {
+                .h2,h2 {
+                    font-size:2rem
+                }
+            }
+
+            .h3,h3 {
+                font-size: calc(1.3rem + .6vw)
+            }
+
+            @media (min-width: 1200px) {
+                .h3,h3 {
+                    font-size:1.75rem
+                }
+            }
+
+            .h4,h4 {
+                font-size: calc(1.275rem + .3vw)
+            }
+
+            @media (min-width: 1200px) {
+                .h4,h4 {
+                    font-size:1.5rem
+                }
+            }
+
+            p {
+                margin-bottom: 1rem;
+                margin-top: 0
+            }
+
+            ul {
+                margin-bottom: 1rem;
+                margin-top: 0;
+                padding-left: 2rem
+            }
+
+            ul ul {
+                margin-bottom: 0
+            }
+
+            b {
+                font-weight: bolder
+            }
+
+            .small,small {
+                font-size: .875em
+            }
+
+            a {
+                color: var(--bs-link-color);
+                text-decoration: underline
+            }
+
+            a:hover {
+                color: var(--bs-link-hover-color)
+            }
+
+            a:not([href]):not([class]),a:not([href]):not([class]):hover {
+                color: inherit;
+                text-decoration: none
+            }
+
+            img,svg {
+                vertical-align: middle
+            }
+
+            table {
+                border-collapse: collapse;
+                caption-side: bottom
+            }
+
+            th {
+                text-align: inherit;
+                text-align: -webkit-match-parent
+            }
+
+            tbody,td,th,thead,tr {
+                border: 0 solid;
+                border-color: inherit
+            }
+
+            label {
+                display: inline-block
+            }
+
+            button {
+                border-radius: 0
+            }
+
+            button:focus:not(:focus-visible) {
+                outline: 0
+            }
+
+            button,input,select {
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+                margin: 0
+            }
+
+            button,select {
+                text-transform: none
+            }
+
+            [role=button] {
+                cursor: pointer
+            }
+
+            select {
+                word-wrap: normal
+            }
+
+            select:disabled {
+                opacity: 1
+            }
+
+            [type=button],[type=submit],button {
+                -webkit-appearance: button
+            }
+
+            [type=button]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled) {
+                cursor: pointer
+            }
+
+            ::-moz-focus-inner {
+                border-style: none;
+                padding: 0
+            }
+
+            ::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field {
+                padding: 0
+            }
+
+            ::-webkit-inner-spin-button {
+                height: auto
+            }
+
+            ::-webkit-search-decoration {
+                -webkit-appearance: none
+            }
+
+            ::-webkit-color-swatch-wrapper {
+                padding: 0
+            }
+
+            ::file-selector-button {
+                -webkit-appearance: button;
+                font: inherit
+            }
+
+            output {
+                display: inline-block
+            }
+
+            iframe {
+                border: 0
+            }
+
+            [hidden] {
+                display: none!important
+            }
+
+            .img-fluid {
+                height: auto;
+                max-width: 100%
+            }
+
+            .container,.container-fluid {
+                --bs-gutter-x: 1.5rem;
+                --bs-gutter-y: 0;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: calc(var(--bs-gutter-x)*.5);
+                padding-right: calc(var(--bs-gutter-x)*.5);
+                width: 100%
+            }
+
+            @media (min-width: 576px) {
+                .container {
+                    max-width:540px
+                }
+            }
+
+            @media (min-width: 768px) {
+                .container {
+                    max-width:720px
+                }
+            }
+
+            @media (min-width: 992px) {
+                .container {
+                    max-width:960px
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .container {
+                    max-width:1140px
+                }
+            }
+
+            @media (min-width: 1400px) {
+                .container {
+                    max-width:1320px
+                }
+            }
+
+            .row {
+                --bs-gutter-x: 1.5rem;
+                --bs-gutter-y: 0;
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: calc(var(--bs-gutter-x)*-.5);
+                margin-right: calc(var(--bs-gutter-x)*-.5);
+                margin-top: calc(var(--bs-gutter-y)*-1)
+            }
+
+            .row>* {
+                flex-shrink: 0;
+                margin-top: var(--bs-gutter-y);
+                max-width: 100%;
+                padding-left: calc(var(--bs-gutter-x)*.5);
+                padding-right: calc(var(--bs-gutter-x)*.5);
+                width: 100%
+            }
+
+            .col {
+                flex: 1 0 0%
+            }
+
+            .col-4 {
+                flex: 0 0 auto;
+                width: 33.33333333%
+            }
+
+            .col-5 {
+                flex: 0 0 auto;
+                width: 41.66666667%
+            }
+
+            .col-6 {
+                flex: 0 0 auto;
+                width: 50%
+            }
+
+            .col-7 {
+                flex: 0 0 auto;
+                width: 58.33333333%
+            }
+
+            .col-8 {
+                flex: 0 0 auto;
+                width: 66.66666667%
+            }
+
+            .col-10 {
+                flex: 0 0 auto;
+                width: 83.33333333%
+            }
+
+            .col-11 {
+                flex: 0 0 auto;
+                width: 91.66666667%
+            }
+
+            .col-12 {
+                flex: 0 0 auto;
+                width: 100%
+            }
+
+            .offset-1 {
+                margin-left: 8.33333333%
+            }
+
+            @media (min-width: 576px) {
+                .col-sm-4 {
+                    flex:0 0 auto;
+                    width: 33.33333333%
+                }
+
+                .col-sm-5 {
+                    flex: 0 0 auto;
+                    width: 41.66666667%
+                }
+
+                .col-sm-7 {
+                    flex: 0 0 auto;
+                    width: 58.33333333%
+                }
+
+                .col-sm-12 {
+                    flex: 0 0 auto;
+                    width: 100%
+                }
+            }
+
+            @media (min-width: 768px) {
+                .col-md-2 {
+                    flex:0 0 auto;
+                    width: 16.66666667%
+                }
+
+                .col-md-4 {
+                    flex: 0 0 auto;
+                    width: 33.33333333%
+                }
+
+                .col-md-5 {
+                    flex: 0 0 auto;
+                    width: 41.66666667%
+                }
+
+                .col-md-6 {
+                    flex: 0 0 auto;
+                    width: 50%
+                }
+
+                .col-md-8 {
+                    flex: 0 0 auto;
+                    width: 66.66666667%
+                }
+
+                .col-md-12 {
+                    flex: 0 0 auto;
+                    width: 100%
+                }
+
+                .offset-md-4 {
+                    margin-left: 33.33333333%
+                }
+            }
+
+            @media (min-width: 992px) {
+                .col-lg-3 {
+                    flex:0 0 auto;
+                    width: 25%
+                }
+
+                .col-lg-4 {
+                    flex: 0 0 auto;
+                    width: 33.33333333%
+                }
+
+                .col-lg-6 {
+                    flex: 0 0 auto;
+                    width: 50%
+                }
+
+                .col-lg-8 {
+                    flex: 0 0 auto;
+                    width: 66.66666667%
+                }
+
+                .col-lg-9 {
+                    flex: 0 0 auto;
+                    width: 75%
+                }
+
+                .col-lg-10 {
+                    flex: 0 0 auto;
+                    width: 83.33333333%
+                }
+
+                .offset-lg-1 {
+                    margin-left: 8.33333333%
+                }
+
+                .offset-lg-3 {
+                    margin-left: 25%
+                }
+
+                .offset-lg-4 {
+                    margin-left: 33.33333333%
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .col-xl-8 {
+                    flex:0 0 auto;
+                    width: 66.66666667%
+                }
+
+                .col-xl-10 {
+                    flex: 0 0 auto;
+                    width: 83.33333333%
+                }
+
+                .offset-xl-1 {
+                    margin-left: 8.33333333%
+                }
+
+                .offset-xl-2 {
+                    margin-left: 16.66666667%
+                }
+            }
+
+            .table {
+                --bs-table-color: var(--bs-body-color);
+                --bs-table-bg: transparent;
+                --bs-table-border-color: var(--bs-border-color);
+                --bs-table-accent-bg: transparent;
+                --bs-table-striped-color: var(--bs-body-color);
+                --bs-table-striped-bg: rgba(0,0,0,.05);
+                --bs-table-active-color: var(--bs-body-color);
+                --bs-table-active-bg: rgba(0,0,0,.1);
+                --bs-table-hover-color: var(--bs-body-color);
+                --bs-table-hover-bg: rgba(0,0,0,.075);
+                border-color: var(--bs-table-border-color);
+                color: var(--bs-table-color);
+                margin-bottom: 1rem;
+                vertical-align: top;
+                width: 100%
+            }
+
+            .table>:not(caption)>*>* {
+                background-color: var(--bs-table-bg);
+                border-bottom-width: 1px;
+                box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+                padding: .5rem
+            }
+
+            .table>tbody {
+                vertical-align: inherit
+            }
+
+            .table>thead {
+                vertical-align: bottom
+            }
+
+            .table-striped>tbody>tr:nth-of-type(odd)>* {
+                --bs-table-accent-bg: var(--bs-table-striped-bg);
+                color: var(--bs-table-striped-color)
+            }
+
+            .table-responsive {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch
+            }
+
+            .form-control {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                background-clip: padding-box;
+                background-color: #fff;
+                border: 1px solid #ced4da;
+                border-radius: .375rem;
+                color: #212529;
+                display: block;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                padding: .375rem .75rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                width: 100%
+            }
+
+            @media (prefers-reduced-motion:reduce) {
+                .form-control {
+                    transition: none
+                }
+            }
+
+            .form-control:focus {
+                background-color: #fff;
+                border-color: #86b7fe;
+                box-shadow: 0 0 0 .25rem #0d6efd40;
+                color: #212529;
+                outline: 0
+            }
+
+            .form-control::-webkit-date-and-time-value {
+                height: 1.5em
+            }
+
+            .form-control::-moz-placeholder {
+                color: #6c757d;
+                opacity: 1
+            }
+
+            .form-control::placeholder {
+                color: #6c757d;
+                opacity: 1
+            }
+
+            .form-control:disabled {
+                background-color: #e9ecef;
+                opacity: 1
+            }
+
+            .form-control::file-selector-button {
+                background-color: #e9ecef;
+                border: 0 solid;
+                border-color: inherit;
+                border-inline-end-width:1px;border-radius: 0;
+                color: #212529;
+                margin: -.375rem -.75rem;
+                margin-inline-end:.75rem;padding: .375rem .75rem;
+                pointer-events: none;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+            }
+
+            @media (prefers-reduced-motion:reduce) {
+                .form-control::file-selector-button {
+                    transition: none
+                }
+            }
+
+            .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+                background-color: #dde0e3
+            }
+
+            .form-select {
+                display: block;
+                padding: .375rem 2.25rem .375rem .75rem;
+                width: 100%;
+                -moz-padding-start: calc(.75rem - 3px);
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                background-color: #fff;
+                background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+                background-position: right .75rem center;
+                background-repeat: no-repeat;
+                background-size: 16px 12px;
+                border: 1px solid #ced4da;
+                border-radius: .375rem;
+                color: #212529;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+            }
+
+            @media (prefers-reduced-motion:reduce) {
+                .form-select {
+                    transition: none
+                }
+            }
+
+            .form-select:focus {
+                border-color: #86b7fe;
+                box-shadow: 0 0 0 .25rem #0d6efd40;
+                outline: 0
+            }
+
+            .form-select:disabled {
+                background-color: #e9ecef
+            }
+
+            .form-select:-moz-focusring {
+                color: transparent;
+                text-shadow: 0 0 0 #212529
+            }
+
+            .form-floating {
+                position: relative
+            }
+
+            .form-floating>.form-control,.form-floating>.form-select {
+                height: calc(3.5rem + 2px);
+                line-height: 1.25
+            }
+
+            .form-floating>label {
+                border: 1px solid transparent;
+                height: 100%;
+                left: 0;
+                overflow: hidden;
+                padding: 1rem .75rem;
+                pointer-events: none;
+                position: absolute;
+                text-align: start;
+                text-overflow: ellipsis;
+                top: 0;
+                transform-origin: 0 0;
+                transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+                white-space: nowrap;
+                width: 100%
+            }
+
+            @media (prefers-reduced-motion:reduce) {
+                .form-floating>label {
+                    transition: none
+                }
+            }
+
+            .form-floating>.form-control {
+                padding: 1rem .75rem
+            }
+
+            .form-floating>.form-control::-moz-placeholder {
+                color: transparent
+            }
+
+            .form-floating>.form-control::placeholder {
+                color: transparent
+            }
+
+            .form-floating>.form-control:not(:-moz-placeholder),.form-floating>.form-control:not(:-moz-placeholder-shown) {
+                padding-bottom: .625rem;
+                padding-top: 1.625rem
+            }
+
+            .form-floating>.form-control:focus,.form-floating>.form-control:not(:placeholder-shown) {
+                padding-bottom: .625rem;
+                padding-top: 1.625rem
+            }
+
+            .form-floating>.form-control:-webkit-autofill {
+                padding-bottom: .625rem;
+                padding-top: 1.625rem
+            }
+
+            .form-floating>.form-select {
+                padding-bottom: .625rem;
+                padding-top: 1.625rem
+            }
+
+            .form-floating>.form-control:not(:-moz-placeholder)~label,.form-floating>.form-control:not(:-moz-placeholder-shown)~label {
+                opacity: .65;
+                transform: scale(.85) translateY(-.5rem) translate(.15rem)
+            }
+
+            .form-floating>.form-control:focus~label,.form-floating>.form-control:not(:placeholder-shown)~label,.form-floating>.form-select~label {
+                opacity: .65;
+                transform: scale(.85) translateY(-.5rem) translate(.15rem)
+            }
+
+            .form-floating>.form-control:-webkit-autofill~label {
+                opacity: .65;
+                transform: scale(.85) translateY(-.5rem) translate(.15rem)
+            }
+
+            .btn {
+                --bs-btn-padding-x: .75rem;
+                --bs-btn-padding-y: .375rem;
+                --bs-btn-font-family: ;
+                --bs-btn-font-size: 1rem;
+                --bs-btn-font-weight: 400;
+                --bs-btn-line-height: 1.5;
+                --bs-btn-color: #212529;
+                --bs-btn-bg: transparent;
+                --bs-btn-border-width: 1px;
+                --bs-btn-border-color: transparent;
+                --bs-btn-border-radius: .375rem;
+                --bs-btn-hover-border-color: transparent;
+                --bs-btn-box-shadow: inset 0 1px 0 hsla(0,0%,100%,.15),0 1px 1px rgba(0,0,0,.075);
+                --bs-btn-disabled-opacity: .65;
+                --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(var(--bs-btn-focus-shadow-rgb),.5);
+                background-color: var(--bs-btn-bg);
+                border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+                border-radius: var(--bs-btn-border-radius);
+                color: var(--bs-btn-color);
+                cursor: pointer;
+                display: inline-block;
+                font-family: var(--bs-btn-font-family);
+                font-size: var(--bs-btn-font-size);
+                font-weight: var(--bs-btn-font-weight);
+                line-height: var(--bs-btn-line-height);
+                padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+                text-align: center;
+                text-decoration: none;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+                vertical-align: middle
+            }
+
+            @media (prefers-reduced-motion:reduce) {
+                .btn {
+                    transition: none
+                }
+            }
+
+            .btn:hover {
+                background-color: var(--bs-btn-hover-bg);
+                border-color: var(--bs-btn-hover-border-color);
+                color: var(--bs-btn-hover-color)
+            }
+
+            .btn:focus-visible {
+                background-color: var(--bs-btn-hover-bg);
+                border-color: var(--bs-btn-hover-border-color);
+                box-shadow: var(--bs-btn-focus-box-shadow);
+                color: var(--bs-btn-hover-color);
+                outline: 0
+            }
+
+            .btn.show,.btn:first-child:active,:not(.btn-check)+.btn:active {
+                background-color: var(--bs-btn-active-bg);
+                border-color: var(--bs-btn-active-border-color);
+                color: var(--bs-btn-active-color)
+            }
+
+            .btn.show:focus-visible,.btn:first-child:active:focus-visible,:not(.btn-check)+.btn:active:focus-visible {
+                box-shadow: var(--bs-btn-focus-box-shadow)
+            }
+
+            .btn:disabled {
+                background-color: var(--bs-btn-disabled-bg);
+                border-color: var(--bs-btn-disabled-border-color);
+                color: var(--bs-btn-disabled-color);
+                opacity: var(--bs-btn-disabled-opacity);
+                pointer-events: none
+            }
+
+            .btn-success {
+                --bs-btn-color: #fff;
+                --bs-btn-bg: #198754;
+                --bs-btn-border-color: #198754;
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: #157347;
+                --bs-btn-hover-border-color: #146c43;
+                --bs-btn-focus-shadow-rgb: 60,153,110;
+                --bs-btn-active-color: #fff;
+                --bs-btn-active-bg: #146c43;
+                --bs-btn-active-border-color: #13653f;
+                --bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+                --bs-btn-disabled-color: #fff;
+                --bs-btn-disabled-bg: #198754;
+                --bs-btn-disabled-border-color: #198754
+            }
+
+            .navbar {
+                --bs-navbar-padding-x: 0;
+                --bs-navbar-padding-y: .5rem;
+                --bs-navbar-color: rgba(0,0,0,.55);
+                --bs-navbar-hover-color: rgba(0,0,0,.7);
+                --bs-navbar-disabled-color: rgba(0,0,0,.3);
+                --bs-navbar-active-color: rgba(0,0,0,.9);
+                --bs-navbar-brand-padding-y: .3125rem;
+                --bs-navbar-brand-margin-end: 1rem;
+                --bs-navbar-brand-font-size: 1.25rem;
+                --bs-navbar-brand-color: rgba(0,0,0,.9);
+                --bs-navbar-brand-hover-color: rgba(0,0,0,.9);
+                --bs-navbar-nav-link-padding-x: .5rem;
+                --bs-navbar-toggler-padding-y: .25rem;
+                --bs-navbar-toggler-padding-x: .75rem;
+                --bs-navbar-toggler-font-size: 1.25rem;
+                --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+                --bs-navbar-toggler-border-color: rgba(0,0,0,.1);
+                --bs-navbar-toggler-border-radius: .375rem;
+                --bs-navbar-toggler-focus-width: .25rem;
+                --bs-navbar-toggler-transition: box-shadow .15s ease-in-out;
+                flex-wrap: wrap;
+                padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+                position: relative
+            }
+
+            .navbar,.navbar>.container,.navbar>.container-fluid {
+                align-items: center;
+                display: flex;
+                justify-content: space-between
+            }
+
+            .navbar>.container,.navbar>.container-fluid {
+                flex-wrap: inherit
+            }
+
+            .card {
+                --bs-card-spacer-y: 1rem;
+                --bs-card-spacer-x: 1rem;
+                --bs-card-title-spacer-y: .5rem;
+                --bs-card-border-width: 1px;
+                --bs-card-border-color: var(--bs-border-color-translucent);
+                --bs-card-border-radius: .375rem;
+                --bs-card-box-shadow: ;
+                --bs-card-inner-border-radius: calc(.375rem - 1px) ;
+                --bs-card-cap-padding-y: .5rem;
+                --bs-card-cap-padding-x: 1rem;
+                --bs-card-cap-bg: rgba(0,0,0,.03);
+                --bs-card-cap-color: ;
+                --bs-card-height: ;
+                --bs-card-color: ;
+                --bs-card-bg: #fff;
+                --bs-card-img-overlay-padding: 1rem;
+                --bs-card-group-margin: .75rem;
+                display: flex;
+                flex-direction: column;
+                height: var(--bs-card-height);
+                min-width: 0;
+                position: relative;
+                word-wrap: break-word;
+                background-clip: border-box;
+                background-color: var(--bs-card-bg);
+                border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+                border-radius: var(--bs-card-border-radius)
+            }
+
+            .card-body {
+                color: var(--bs-card-color);
+                flex: 1 1 auto;
+                padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x)
+            }
+
+            .alert {
+                --bs-alert-bg: transparent;
+                --bs-alert-padding-x: 1rem;
+                --bs-alert-padding-y: 1rem;
+                --bs-alert-margin-bottom: 1rem;
+                --bs-alert-color: inherit;
+                --bs-alert-border-color: transparent;
+                --bs-alert-border: 1px solid var(--bs-alert-border-color);
+                --bs-alert-border-radius: .375rem;
+                background-color: var(--bs-alert-bg);
+                border: var(--bs-alert-border);
+                border-radius: var(--bs-alert-border-radius);
+                color: var(--bs-alert-color);
+                margin-bottom: var(--bs-alert-margin-bottom);
+                padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);
+                position: relative
+            }
+
+            .alert-dismissible {
+                padding-right: 3rem
+            }
+
+            .alert-dismissible .btn-close {
+                padding: 1.25rem 1rem;
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: 2
+            }
+
+            @keyframes progress-bar-stripes {
+                0% {
+                    background-position-x: 1rem
+                }
+            }
+
+            .btn-close {
+                background: transparent url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414'/%3E%3C/svg%3E") 50%/1em auto no-repeat;
+                border: 0;
+                border-radius: .375rem;
+                box-sizing: content-box;
+                color: #000;
+                height: 1em;
+                opacity: .5;
+                padding: .25em;
+                width: 1em
+            }
+
+            .btn-close:hover {
+                color: #000;
+                opacity: .75;
+                text-decoration: none
+            }
+
+            .btn-close:focus {
+                box-shadow: 0 0 0 .25rem #0d6efd40;
+                opacity: 1;
+                outline: 0
+            }
+
+            .btn-close:disabled {
+                opacity: .25;
+                pointer-events: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none
+            }
+
+            .modal {
+                --bs-modal-zindex: 1055;
+                --bs-modal-width: 500px;
+                --bs-modal-padding: 1rem;
+                --bs-modal-margin: .5rem;
+                --bs-modal-color: ;
+                --bs-modal-bg: #fff;
+                --bs-modal-border-color: var(--bs-border-color-translucent);
+                --bs-modal-border-width: 1px;
+                --bs-modal-border-radius: .5rem;
+                --bs-modal-box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+                --bs-modal-inner-border-radius: calc(.5rem - 1px) ;
+                --bs-modal-header-padding-x: 1rem;
+                --bs-modal-header-padding-y: 1rem;
+                --bs-modal-header-padding: 1rem 1rem;
+                --bs-modal-header-border-color: var(--bs-border-color);
+                --bs-modal-header-border-width: 1px;
+                --bs-modal-title-line-height: 1.5;
+                --bs-modal-footer-gap: .5rem;
+                --bs-modal-footer-bg: ;
+                --bs-modal-footer-border-color: var(--bs-border-color);
+                --bs-modal-footer-border-width: 1px;
+                display: none;
+                height: 100%;
+                left: 0;
+                outline: 0;
+                overflow-x: hidden;
+                overflow-y: auto;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: var(--bs-modal-zindex)
+            }
+
+            .modal-title {
+                line-height: var(--bs-modal-title-line-height);
+                margin-bottom: 0
+            }
+
+            @media (min-width: 576px) {
+                .modal {
+                    --bs-modal-margin:1.75rem;
+                    --bs-modal-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)
+                }
+            }
+
+            @keyframes spinner-border {
+                to {
+                    transform: rotate(1turn)
+                }
+            }
+
+            @keyframes spinner-grow {
+                0% {
+                    transform: scale(0)
+                }
+
+                50% {
+                    opacity: 1;
+                    transform: none
+                }
+            }
+
+            .placeholder {
+                background-color: currentcolor;
+                cursor: wait;
+                display: inline-block;
+                min-height: 1em;
+                opacity: .5;
+                vertical-align: middle
+            }
+
+            .placeholder.btn:before {
+                content: "";
+                display: inline-block
+            }
+
+            @keyframes placeholder-glow {
+                50% {
+                    opacity: .2
+                }
+            }
+
+            @keyframes placeholder-wave {
+                to {
+                    -webkit-mask-position: -200% 0;
+                    mask-position: -200% 0
+                }
+            }
+
+            .float-start {
+                float: left!important
+            }
+
+            .float-end {
+                float: right!important
+            }
+
+            .d-inline-block {
+                display: inline-block!important
+            }
+
+            .d-block {
+                display: block!important
+            }
+
+            .d-flex {
+                display: flex!important
+            }
+
+            .d-none {
+                display: none!important
+            }
+
+            .position-relative {
+                position: relative!important
+            }
+
+            .position-absolute {
+                position: absolute!important
+            }
+
+            .border {
+                border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important
+            }
+
+            .border-dark {
+                --bs-border-opacity: 1;
+                border-color: rgba(var(--bs-dark-rgb),var(--bs-border-opacity))!important
+            }
+
+            .justify-content-center {
+                justify-content: center!important
+            }
+
+            .align-items-center {
+                align-items: center!important
+            }
+
+            .order-1 {
+                order: 1!important
+            }
+
+            .order-2 {
+                order: 2!important
+            }
+
+            .m-0 {
+                margin: 0!important
+            }
+
+            .m-2 {
+                margin: .5rem!important
+            }
+
+            .m-auto {
+                margin: auto!important
+            }
+
+            .mx-auto {
+                margin-left: auto!important;
+                margin-right: auto!important
+            }
+
+            .my-2 {
+                margin-bottom: .5rem!important;
+                margin-top: .5rem!important
+            }
+
+            .my-3 {
+                margin-bottom: 1rem!important;
+                margin-top: 1rem!important
+            }
+
+            .my-5 {
+                margin-bottom: 3rem!important;
+                margin-top: 3rem!important
+            }
+
+            .my-auto {
+                margin-bottom: auto!important;
+                margin-top: auto!important
+            }
+
+            .mt-2 {
+                margin-top: .5rem!important
+            }
+
+            .mt-3 {
+                margin-top: 1rem!important
+            }
+
+            .mt-5 {
+                margin-top: 3rem!important
+            }
+
+            .me-3 {
+                margin-right: 1rem!important
+            }
+
+            .mb-0 {
+                margin-bottom: 0!important
+            }
+
+            .mb-2 {
+                margin-bottom: .5rem!important
+            }
+
+            .mb-3 {
+                margin-bottom: 1rem!important
+            }
+
+            .mb-5 {
+                margin-bottom: 3rem!important
+            }
+
+            .ms-2 {
+                margin-left: .5rem!important
+            }
+
+            .p-0 {
+                padding: 0!important
+            }
+
+            .p-3 {
+                padding: 1rem!important
+            }
+
+            .px-0 {
+                padding-left: 0!important;
+                padding-right: 0!important
+            }
+
+            .px-1 {
+                padding-left: .25rem!important;
+                padding-right: .25rem!important
+            }
+
+            .py-0 {
+                padding-bottom: 0!important;
+                padding-top: 0!important
+            }
+
+            .py-1 {
+                padding-bottom: .25rem!important;
+                padding-top: .25rem!important
+            }
+
+            .py-2 {
+                padding-bottom: .5rem!important;
+                padding-top: .5rem!important
+            }
+
+            .py-3 {
+                padding-top: 1rem!important
+            }
+
+            .pb-3,.py-3 {
+                padding-bottom: 1rem!important
+            }
+
+            .gap-2 {
+                gap: .5rem!important
+            }
+
+            .fw-bold {
+                font-weight: 700!important
+            }
+
+            .text-start {
+                text-align: left!important
+            }
+
+            .text-end {
+                text-align: right!important
+            }
+
+            .text-center {
+                text-align: center!important
+            }
+
+            .text-white {
+                --bs-text-opacity: 1;
+                color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important
+            }
+
+            .text-muted {
+                --bs-text-opacity: 1;
+                color: #6c757d!important
+            }
+
+            .bg-light {
+                --bs-bg-opacity: 1;
+                background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important
+            }
+
+            .bg-white {
+                --bs-bg-opacity: 1;
+                background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important
+            }
+
+            .rounded {
+                border-radius: var(--bs-border-radius)!important
+            }
+
+            .visible {
+                visibility: visible!important
+            }
+
+            @media (min-width: 576px) {
+                .d-sm-none {
+                    display:none!important
+                }
+            }
+
+            @media (min-width: 768px) {
+                .d-md-block {
+                    display:block!important
+                }
+
+                .d-md-none {
+                    display: none!important
+                }
+
+                .order-md-1 {
+                    order: 1!important
+                }
+
+                .order-md-2 {
+                    order: 2!important
+                }
+
+                .mt-md-3 {
+                    margin-top: 1rem!important
+                }
+
+                .mt-md-4 {
+                    margin-top: 1.5rem!important
+                }
+
+                .mb-md-3 {
+                    margin-bottom: 1rem!important
+                }
+
+                .px-md-3 {
+                    padding-left: 1rem!important;
+                    padding-right: 1rem!important
+                }
+
+                .py-md-4 {
+                    padding-bottom: 1.5rem!important;
+                    padding-top: 1.5rem!important
+                }
+
+                .py-md-5 {
+                    padding-bottom: 3rem!important;
+                    padding-top: 3rem!important
+                }
+            }
+
+            @media (min-width: 992px) {
+                .d-lg-inline {
+                    display:inline!important
+                }
+
+                .d-lg-block {
+                    display: block!important
+                }
+
+                .my-lg-5 {
+                    margin-bottom: 3rem!important;
+                    margin-top: 3rem!important
+                }
+
+                .mb-lg-0 {
+                    margin-bottom: 0!important
+                }
+
+                .px-lg-5 {
+                    padding-left: 3rem!important;
+                    padding-right: 3rem!important
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .p-xl-0 {
+                    padding:0!important
+                }
+
+                .px-xl-0 {
+                    padding-left: 0!important;
+                    padding-right: 0!important
+                }
+            }
+        </style>
+        <style>
+            :root {
+                --primary: #00467f;
+                --secondary: #444;
+                --branding: #ff7207;
+                --bgInput: #fff;
+                --text: #777;
+                --black: #000;
+                --white: #fff;
+                --outline-form: #3b82f6;
+                --link-bg: #3b82f6;
+                --outline-btn: #ff7207;
+                --overlay: #6b7280;
+                --separator: #9ca3af;
+                --bg-gracias: #e9ebee;
+                --border: #ced4da;
+                --border-promoSpecial: #ff0049;
+                --backgound-promoLabel: #f0b118
+            }
+
+            .container-xleo {
+                max-width: 1195px
+            }
+
+            .card {
+                box-shadow: 0 0 10px 2px #0000001a
+            }
+
+            .form input,.form select {
+                color: #444;
+                font-size: 1rem;
+                height: 52px;
+                padding: 0 5px
+            }
+
+            .formulario {
+                padding: 0 45px
+            }
+
+            .priv {
+                font-size: 14px
+            }
+
+            .promo {
+                left: 70%;
+                position: relative;
+                top: 65%;
+                z-index: 99
+            }
+
+            .b1 {
+                font-weight: 700
+            }
+
+            .b1,.b2 {
+                color: #00337f;
+                font-size: 16px
+            }
+
+            .b2 {
+                line-height: 1
+            }
+
+            .flecha {
+                margin-top: -10px;
+                width: 30px
+            }
+
+            .form-control {
+                border: 1px solid rgba(21,90,206,.43);
+                border-radius: 0;
+                color: #333;
+                height: 52px
+            }
+
+            .form-floating>.form-control:not(:-moz-placeholder)~label {
+                opacity: .65;
+                transform: scale(.85) translateY(-.6rem) translate(.15rem)
+            }
+
+            .form-floating>.form-control:focus~label,.form-floating>.form-control:not(:placeholder-shown)~label,.form-floating>.form-select~label {
+                opacity: .65;
+                transform: scale(.85) translateY(-.6rem) translate(.15rem)
+            }
+
+            .cont>section {
+                padding-left: 1rem!important;
+                padding-right: 1rem!important
+            }
+
+            h2,h3,h4,span {
+                color: #183d7b
+            }
+
+            li,p {
+                color: #444
+            }
+
+            a,a:hover {
+                text-decoration: none
+            }
+
+            ul {
+                list-style: none
+            }
+
+            .btnTel a {
+                border: 2px solid #183d7b;
+                font-size: 18px;
+                margin: 0 12px 0 0;
+                padding: 3px 10px
+            }
+
+            .btnTel a,.btnTel a:hover,.btnTel p {
+                color: #183d7b
+            }
+
+            .btnTel p {
+                font-size: 12px;
+                margin: 0 0 -5px 10px;
+                padding: 0
+            }
+
+            .form {
+                padding: 4px 5px
+            }
+
+            .form-control:focus {
+                box-shadow: 0 0 0 2px #183d7b
+            }
+
+            .check b {
+                color: #556
+            }
+
+            .msi {
+                font-size: 40px
+            }
+
+            h1 {
+                color: #183d7b
+            }
+
+            .card .row {
+                align-items: center
+            }
+
+            .card img[name=img] {
+                width: 70px
+            }
+
+            #btnTrackingTelefono {
+                background-color: #183d7b;
+                border-bottom: #183d7b;
+                color: #fff;
+                width: 260px
+            }
+
+            #btnTrackingEcommerce {
+                background-color: #ff6f20;
+                color: #fff;
+                width: 260px
+            }
+
+            .card p {
+                color: #444;
+                font-size: 11px;
+                font-weight: 700;
+                margin: 0
+            }
+
+            #vial {
+                background-position: -190px 9px;
+                background-size: 550px
+            }
+
+            #auto {
+                background-position: -90px 8px;
+                background-size: 490px
+            }
+
+            .logo {
+                display: block;
+                margin: auto;
+                width: 90%
+            }
+
+            .bgColor {
+                background: #ff7207;
+                text-align: center
+            }
+
+            .bgColor h2,.bgColor p {
+                color: #fff;
+                text-align: left
+            }
+
+            a:hover {
+                color: #b8b8b8
+            }
+
+            .footer {
+                background: #ff6f20;
+                padding: 1% 0 0
+            }
+
+            .footer a,.footer p,.footer span {
+                color: #fff;
+                font-size: 18px;
+                text-align: center
+            }
+
+            .botonTop {
+                background: #183d7b
+            }
+
+            .botonTop:hover {
+                background: #ff6f20
+            }
+
+            .rest {
+                background: #fff;
+                border-radius: 10px;
+                margin: 10px 0;
+                padding: 10px;
+                text-align: center
+            }
+
+            .rest a,.rest span {
+                color: #ff6f20;
+                font-size: 18px
+            }
+
+            .rest a {
+                border-bottom: 1px solid #ff6f20
+            }
+
+            .rest p {
+                background: #f1f1f1;
+                border-radius: 5px;
+                color: #556;
+                display: inline-block;
+                font-size: 16px;
+                font-size: 18px;
+                padding: 15px 20px
+            }
+
+            .rest b {
+                color: #ff6f20
+            }
+
+            .rest table {
+                margin: 10px 0 0;
+                text-align: left
+            }
+
+            .rest th {
+                background: #ff6f20;
+                color: #fff
+            }
+
+            .rest td,.rest th {
+                padding: 2px 10px!important
+            }
+
+            .rest td {
+                color: #444
+            }
+
+            .msj {
+                background: #fff;
+                border-radius: 10px;
+                margin: 20px 0;
+                padding: 10px;
+                text-align: center
+            }
+
+            .msj p {
+                color: #556;
+                font-size: 18px
+            }
+
+            .msj a {
+                padding: 10px 15px
+            }
+
+            .msj a,.msj a:hover {
+                background: #183d7b;
+                color: #fff
+            }
+
+            table td img {
+                width: 17px
+            }
+
+            table td {
+                font-size: 18px;
+                padding: 0 10px!important
+            }
+
+            table th {
+                background: #183d7b;
+                color: #fff;
+                font-size: 18px;
+                padding: 2px 10px!important
+            }
+
+            .btn-success:focus,.btn-success:not(:disabled):not(.disabled):active {
+                background-color: #fb6c06;
+                border-color: #f56804
+            }
+
+            @media (min-width: 768px) and (max-width:1023px) {
+                .container-xleo {
+                    max-width:710px
+                }
+
+                .msi {
+                    font-size: 23px
+                }
+
+                h1 {
+                    font-size: 28px
+                }
+
+                h2,h3,h4 {
+                    font-size: 24px
+                }
+            }
+
+            @media (min-width: 426px) and (max-width:767px) {
+                h1 {
+                    font-size:1.25rem
+                }
+
+                span.h3 {
+                    font-size: 1rem
+                }
+
+                .promocel {
+                    height: 75px;
+                    left: 96%;
+                    position: absolute;
+                    top: 54%;
+                    width: 50px;
+                    z-index: 99
+                }
+
+                .formulario {
+                    padding: 0 25px
+                }
+
+                .b1,.b2 {
+                    font-size: 12px
+                }
+
+                .card {
+                    margin: 1% 0 3%;
+                    padding: 5px 0
+                }
+
+                h2,h3,h4 {
+                    font-size: 24px
+                }
+
+                .rest span {
+                    font-size: 18px
+                }
+
+                .rest td,.rest th {
+                    font-size: 14px;
+                    padding: 3px!important
+                }
+            }
+
+            @media (min-width: 376px) and (max-width:425px) {
+                h1 {
+                    font-size:1.25rem
+                }
+
+                .tuinfo {
+                    font-size: .6rem
+                }
+
+                span.h3 {
+                    font-size: 1rem
+                }
+
+                .promocel {
+                    left: 95%;
+                    position: absolute;
+                    top: 84%;
+                    width: 38px;
+                    z-index: 99
+                }
+
+                .formulario {
+                    padding: 0 25px
+                }
+
+                .b1,.b2 {
+                    font-size: 12px
+                }
+
+                .card {
+                    margin: 1% 0 3%;
+                    padding: 5px 0
+                }
+
+                h2,h3,h4 {
+                    font-size: 24px
+                }
+
+                .rest span {
+                    font-size: 18px
+                }
+
+                .rest a,.rest p {
+                    font-size: 15px
+                }
+
+                .footer a,.footer p,.footer span {
+                    font-size: 16px
+                }
+
+                .rest td,.rest th {
+                    font-size: 14px;
+                    padding: 3px!important
+                }
+
+                #btnTrackingTelefono {
+                    background-color: #183d7b;
+                    border-bottom: #183d7b;
+                    color: #fff;
+                    width: 235px
+                }
+            }
+
+            @media (min-width: 321px) and (max-width:375px) {
+                h1 {
+                    font-size:1.25rem
+                }
+
+                .tuinfo {
+                    font-size: .6rem
+                }
+
+                span.h3 {
+                    font-size: 1rem
+                }
+
+                .promocel {
+                    position: absolute;
+                    right: 44%;
+                    top: 90%;
+                    width: 38px;
+                    z-index: 99
+                }
+
+                .formulario {
+                    padding: 0 25px
+                }
+
+                .b1,.b2,.priv {
+                    font-size: 12px
+                }
+
+                .btnTel a {
+                    font-size: 16px;
+                    padding: 1px 2px
+                }
+
+                .card {
+                    margin: 1% 0 3%;
+                    padding: 5px 0
+                }
+
+                h2,h3,h4 {
+                    font-size: 24px
+                }
+
+                .rest a,.rest p {
+                    font-size: 14px
+                }
+
+                .footer a,.footer p,.footer span,.rest span {
+                    font-size: 16px
+                }
+
+                .rest td,.rest th {
+                    font-size: 14px;
+                    padding: 3px!important
+                }
+
+                #btnTrackingTelefono {
+                    background-color: #183d7b;
+                    border-bottom: #183d7b;
+                    color: #fff;
+                    width: 260px
+                }
+            }
+
+            @media (min-width: 286px) and (max-width:320px) {
+                h1 {
+                    font-size:1.25rem
+                }
+
+                .tuinfo {
+                    font-size: .5rem
+                }
+
+                span.h3 {
+                    font-size: 1rem
+                }
+
+                .promocel {
+                    position: absolute;
+                    right: 0;
+                    top: 96%;
+                    width: 40px;
+                    z-index: 99
+                }
+
+                .formulario {
+                    padding: 0 25px
+                }
+
+                .priv {
+                    font-size: 12px
+                }
+
+                .b1,.b2 {
+                    font-size: 10px
+                }
+
+                .btnTel a {
+                    font-size: 16px;
+                    padding: 1px 2px
+                }
+
+                .card {
+                    margin: 1% 0 3%;
+                    padding: 5px 0
+                }
+
+                .card p {
+                    font-size: 9px
+                }
+
+                h2,h3,h4 {
+                    font-size: 20px
+                }
+
+                .rest a,.rest p {
+                    font-size: 14px
+                }
+
+                .footer a,.footer p,.footer span {
+                    font-size: 16px
+                }
+
+                .rest span {
+                    font-size: 14px
+                }
+
+                .rest td,.rest th {
+                    font-size: 12px;
+                    padding: 3px!important
+                }
+
+                #btnTrackingTelefono {
+                    background-color: #183d7b;
+                    border-bottom: #183d7b;
+                    color: #fff;
+                    width: 260px
+                }
+            }
+
+            @media (min-width: 250px) and (max-width:285px) {
+                h1 {
+                    font-size:1.25rem
+                }
+
+                span.h3 {
+                    font-size: 1rem
+                }
+
+                .formulario {
+                    padding: 0 25px
+                }
+
+                .priv {
+                    font-size: 12px
+                }
+
+                .btnTel a {
+                    border: 2px solid #183d7b;
+                    color: #183d7b;
+                    font-size: 15px;
+                    margin: 0 5px 0 0;
+                    padding: 3px 10px
+                }
+
+                #btnTrackingTelefono {
+                    background-color: #183d7b;
+                    border-bottom: #183d7b;
+                    color: #fff;
+                    height: 50px;
+                    width: 260px
+                }
+            }
+
+            .contenedorPromo {
+                background: #fff;
+                border-radius: 6px;
+                box-shadow: 2px 2px 5px #bababa;
+                height: auto;
+                max-width: 500px;
+                padding: 5px;
+                width: 100%
+            }
+
+            .adornosPromo {
+                border: 4px dotted #fb6c06;
+                border-radius: 6px
+            }
+
+            .labelPromo {
+                background: red;
+                border-radius: 10px;
+                color: #fff;
+                left: -10px;
+                padding: 0 12px;
+                position: absolute;
+                top: -10px
+            }
+
+            .descuentosPromo {
+                background: #fb6c06;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 1.3rem;
+                margin-bottom: 0;
+                padding: .5rem
+            }
+
+            .descuentosPromo,.msiPromo {
+                font-weight: 700;
+                text-align: center
+            }
+
+            .msiPromo {
+                display: block;
+                font-size: 1.4rem;
+                line-height: 1
+            }
+
+            .labelendPromo {
+                display: block;
+                font-size: .8rem;
+                font-weight: 500;
+                text-align: center;
+                text-transform: uppercase
+            }
+
+            @media (min-width: 240px) and (max-width:520px) {
+                .labelPromo {
+                    background:red;
+                    border-radius: 10px;
+                    color: #fff;
+                    left: -10px;
+                    padding: 0 12px;
+                    position: absolute;
+                    top: -10px
+                }
+
+                .descuentosPromo {
+                    background: #fb6c06;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 1rem;
+                    margin-bottom: 0;
+                    padding: .3rem .2rem
+                }
+
+                .descuentosPromo,.msiPromo {
+                    font-weight: 700;
+                    text-align: center
+                }
+
+                .msiPromo {
+                    display: block;
+                    font-size: 1.4rem;
+                    line-height: 1
+                }
+
+                .labelendPromo {
+                    display: block;
+                    font-size: .8rem;
+                    font-weight: 500;
+                    text-align: center;
+                    text-transform: uppercase
+                }
+            }
+        </style>
+        <style>
+            .bg-white[data-v-06403dcb] {
+                --un-bg-opacity: 1;
+                background-color: rgb(255 255 255/var(--un-bg-opacity))
+            }
+
+            .py-2[data-v-06403dcb] {
+                padding-bottom: .5rem;
+                padding-top: .5rem
+            }
+
+            .text-center[data-v-06403dcb] {
+                text-align: center
+            }
+        </style>
+        <style>
+            .bg-white[data-v-a4ce9fcd] {
+                --un-bg-opacity: 1;
+                background-color: rgb(255 255 255/var(--un-bg-opacity))
+            }
+        </style>
+        <style>
+            .bg-white[data-v-4b6f0a29] {
+                --un-bg-opacity: 1;
+                background-color: rgb(255 255 255/var(--un-bg-opacity))
+            }
+
+            .text-center[data-v-4b6f0a29] {
+                text-align: center
+            }
+        </style>
+        <style>
+            .botonTop[data-v-89ba8a19],.botonTop-upper[data-v-89ba8a19] {
+                background: var(--primary);
+                border: none;
+                border-radius: 25px;
+                bottom: 2rem;
+                padding: 15px;
+                position: fixed;
+                right: 2rem;
+                text-decoration: none;
+                transition: all .3s ease;
+                z-index: 1
+            }
+
+            .botonTop-upper[data-v-89ba8a19] {
+                bottom: 4.5rem
+            }
+
+            .botonTopImg[data-v-89ba8a19] {
+                width: 19px
+            }
+
+            .botonTopSpan[data-v-89ba8a19] {
+                color: #fff;
+                font-size: 16px
+            }
+
+            @media (min-width: 319px) {
+                .botonTop-upper[data-v-89ba8a19] {
+                    bottom:7rem
+                }
+            }
+
+            @media (min-width: 447px) {
+                .botonTop-upper[data-v-89ba8a19] {
+                    bottom:5.5rem
+                }
+            }
+
+            @media (min-width: 776px) {
+                .botonTop-upper[data-v-89ba8a19] {
+                    bottom:4.5rem
+                }
+            }
+        </style>
+        <style>
+            .bg-gral[data-v-587b92b6] {
+                background-color: #ff7207
+            }
+
+            .back[data-v-587b92b6] {
+                background: #fff;
+                border-radius: 6px;
+                box-shadow: 2px 2px 5px #bababa;
+                height: auto;
+                margin: auto auto 1.6rem;
+                max-width: 760px;
+                position: relative;
+                width: 70%
+            }
+
+            .datos-p[data-v-587b92b6] {
+                color: #ff6e00;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 1
+            }
+
+            .promo[data-v-587b92b6] {
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+                width: 100%
+            }
+
+            .img-mover[data-v-587b92b6] {
+                margin-left: -1px
+            }
+
+            @media (min-width: 1021px) and (max-width:1400px) {
+                .datos-p[data-v-587b92b6] {
+                    font-size:90%
+                }
+
+                .back[data-v-587b92b6] {
+                    width: 90%
+                }
+            }
+
+            @media (min-width: 768px) and (max-width:1020px) {
+                .datos-p[data-v-587b92b6] {
+                    font-size:85%
+                }
+
+                .back[data-v-587b92b6] {
+                    width: 90%
+                }
+            }
+
+            @media (min-width: 425px) and (max-width:767px) {
+                .datos-p[data-v-587b92b6] {
+                    font-size:90%
+                }
+
+                .back[data-v-587b92b6] {
+                    width: 90%
+                }
+            }
+
+            @media (min-width: 240px) and (max-width:424px) {
+                .datos-p[data-v-587b92b6] {
+                    font-size:70%
+                }
+
+                .back[data-v-587b92b6] {
+                    width: 95%
+                }
+            }
+        </style>
+        <style>
+            h1[data-v-04171a05] {
+                font-size: 18px
+            }
+
+            h2[data-v-04171a05] {
+                font-size: 16px
+            }
+
+            .multiSelectHeight[data-v-04171a05] {
+                border: 1px solid #fb6c06!important;
+                height: auto!important;
+                min-height: 68px!important
+            }
+
+            [class$=Inc][data-v-04171a05],[class$=Req][data-v-04171a05] {
+                border-radius: 0 0 8px 8px;
+                color: #183d7b;
+                font-size: 14px;
+                font-weight: 400;
+                margin-top: -16px;
+                padding: 20px 4px 4px;
+                width: 100%
+            }
+
+            .input-error[data-v-04171a05] {
+                margin-top: -21px!important
+            }
+
+            [class$=Req][data-v-04171a05] {
+                color: #183d7b!important
+            }
+
+            .title[data-v-04171a05] {
+                color: var(--white);
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 8px;
+                text-align: center
+            }
+
+            .form__group[data-v-04171a05] {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                padding-bottom: calc(var(--bs-gutter-x)*.2);
+                padding-top: calc(var(--bs-gutter-x)*.2)
+            }
+
+            .form-select[data-v-04171a05] {
+                background-color: var(--bgInput);
+                border: 1px solid rgba(21,90,206,.43);
+                border-radius: 0;
+                color: #333;
+                font-size: 1rem;
+                height: 52px;
+                padding: 10px;
+                width: 100%
+            }
+
+            .form-select[data-v-04171a05]:focus-visible {
+                outline: 2px solid var(--outline-form)
+            }
+
+            .form-select[data-v-04171a05]:focus {
+                border: 1px solid var(--outline-form)
+            }
+
+            .btn[data-v-04171a05] {
+                background-color: var(--branding);
+                border-color: var(--branding);
+                color: #fff;
+                font-size: 16px;
+                font-weight: 700;
+                height: 54px;
+                margin-top: calc(var(--bs-gutter-x)*.2);
+                padding: 30px 0;
+                width: 100%!important
+            }
+
+            label[data-v-04171a05] {
+                color: var(--secondary);
+                font-size: 1rem
+            }
+
+            .form-floating>label[data-v-04171a05] {
+                padding: 1rem .75rem
+            }
+
+            .form-control[data-v-04171a05] {
+                background-color: var(--bgInput);
+                border: 1px solid rgba(21,90,206,.43);
+                border-radius: 0;
+                color: #333;
+                font-size: 1rem;
+                height: 52px;
+                overflow-x: hidden
+            }
+
+            .form-floating[data-v-04171a05] {
+                padding-bottom: calc(var(--bs-gutter-x)*.2);
+                padding-top: 0
+            }
+
+            @media (min-width: 768px) {
+                .btn[data-v-04171a05] {
+                    font-size:24px;
+                    width: 96%!important
+                }
+            }
+        </style>
+        <style>
+            .multiCard[data-v-a58dec77] {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                position: relative
+            }
+
+            .contentList[data-v-a58dec77] {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px
+            }
+
+            .textMulti[data-v-a58dec77] {
+                color: #292121;
+                font-size: 17px
+            }
+
+            .textSpace[data-v-a58dec77] {
+                align-items: center;
+                border-radius: 5px;
+                display: flex;
+                font-size: 1rem;
+                gap: 8px;
+                padding: 7px
+            }
+
+            .itemList[data-v-a58dec77] {
+                padding: 8px
+            }
+
+            .showListMulti[data-v-a58dec77] {
+                background: #fff;
+                border: 1px solid #e8e8e8;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-top: none;
+                cursor: pointer;
+                display: block;
+                left: 0;
+                max-height: 240px;
+                overflow: auto;
+                overflow-y: scroll;
+                position: absolute;
+                right: 0;
+                top: 100%;
+                z-index: 1
+            }
+
+            .itemList[data-v-a58dec77]:hover {
+                background: #0065c5;
+                color: #fff;
+                outline: none
+            }
+
+            .closeMulti[data-v-a58dec77] {
+                color: #b8b8b8;
+                cursor: pointer;
+                font-weight: 400;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #564d4d
+            }
+
+            .optionsMulti[data-v-a58dec77] {
+                padding-left: 0
+            }
+        </style>
+        <style>
+            .btn__privacy[data-v-532b50ec] {
+                gap: 8px;
+                justify-content: center;
+                text-align: center
+            }
+
+            .btn__privacy[data-v-532b50ec],.switch[data-v-532b50ec] {
+                align-items: center;
+                display: flex
+            }
+
+            .switch[data-v-532b50ec] {
+                background-color: #ccc;
+                cursor: pointer;
+                transition: background-color .3s ease-in-out;
+                width: 32px
+            }
+
+            .switch[data-v-532b50ec],.switch__circle[data-v-532b50ec] {
+                border-radius: 999999px;
+                height: 16px
+            }
+
+            .switch__circle[data-v-532b50ec] {
+                background-color: #fff;
+                transform: translate(0);
+                transition: transform .3s ease-in-out;
+                width: 16px
+            }
+
+            .switch--active[data-v-532b50ec] {
+                background-color: #fb6c06
+            }
+
+            .switch__circle--active[data-v-532b50ec] {
+                transform: translate(16px)
+            }
+
+            .btn__text[data-v-532b50ec] {
+                color: #6c757d;
+                cursor: pointer;
+                font-size: 14px;
+                margin-bottom: 0;
+                padding: 10px 0
+            }
+        </style>
+        <style>
+            [data-v-e9f91210]::-webkit-scrollbar {
+                width: 10px
+            }
+
+            [data-v-e9f91210]::-webkit-scrollbar-track {
+                background: #888;
+                border-radius: 5px
+            }
+
+            [data-v-e9f91210]::-webkit-scrollbar-thumb {
+                background: #000;
+                border-radius: 5px
+            }
+
+            [data-v-e9f91210]::-webkit-scrollbar-thumb:hover {
+                background: #555
+            }
+
+            .modal-enter-active[data-v-e9f91210] {
+                transition: .3s ease-out
+            }
+
+            .modal-leave-active[data-v-e9f91210] {
+                transition: .2s ease-in
+            }
+
+            .modal-enter-from[data-v-e9f91210],.modal-leave-to[data-v-e9f91210] {
+                opacity: 0
+            }
+
+            .modal-enter-to[data-v-e9f91210],.modal-leave-from[data-v-e9f91210] {
+                opacity: 1
+            }
+
+            .custom-modal[data-v-e9f91210] {
+                position: relative;
+                z-index: 50
+            }
+
+            .modal__overlay[data-v-e9f91210] {
+                background-color: var(--overlay);
+                bottom: 0;
+                left: 0;
+                opacity: .8;
+                position: fixed;
+                right: 0;
+                top: 0
+            }
+
+            .modal__container--custom[data-v-e9f91210] {
+                height: 90%;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+                position: fixed;
+                width: 90%
+            }
+
+            @media (min-width: 640px) {
+                .modal__container--custom[data-v-e9f91210] {
+                    width:80%
+                }
+            }
+
+            .enter-active[data-v-e9f91210] {
+                animation-duration: .3s;
+                animation-timing-function: ease-out
+            }
+
+            .enter-from[data-v-e9f91210] {
+                opacity: 0;
+                transform: translateY(40px) scale(.95)
+            }
+
+            .enter-to[data-v-e9f91210] {
+                opacity: 1;
+                transform: translateY(0) scale(1)
+            }
+
+            .leave-active[data-v-e9f91210] {
+                animation-duration: .2s;
+                animation-timing-function: ease-in
+            }
+
+            .leave-from[data-v-e9f91210] {
+                opacity: 1;
+                transform: translateY(0) scale(1)
+            }
+
+            .leave-to[data-v-e9f91210] {
+                opacity: 0;
+                transform: translateY(40px) scale(.95)
+            }
+
+            @media (min-width: 640px) {
+                .enter-from[data-v-e9f91210],.enter-to[data-v-e9f91210],.leave-from[data-v-e9f91210],.leave-to[data-v-e9f91210] {
+                    transform:translateY(0) scale(1)
+                }
+            }
+
+            .modal__box[data-v-e9f91210] {
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0 4px 6px -1px #0000001a,0 2px 4px -1px #0000000f;
+                height: 90vh;
+                overflow-x: hidden;
+                overflow-y: auto;
+                position: relative
+            }
+
+            .modal__header[data-v-e9f91210] {
+                background-color: #fff;
+                position: sticky;
+                top: 0;
+                z-index: 50
+            }
+
+            .modal__close[data-v-e9f91210] {
+                display: flex;
+                justify-content: flex-end;
+                padding: 5px 3px
+            }
+
+            .modal__close button[data-v-e9f91210] {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                outline: none
+            }
+
+            .modal__body[data-v-e9f91210] {
+                display: flex;
+                flex: 1;
+                flex: auto;
+                flex-direction: column;
+                gap: 1.6rem;
+                padding: 30px 20px;
+                position: relative;
+                text-align: start
+            }
+
+            .footer[data-v-e9f91210] {
+                background-color: #fff;
+                bottom: 0;
+                position: sticky;
+                z-index: 50
+            }
+
+            .footer__content[data-v-e9f91210] {
+                display: flex;
+                justify-content: flex-end;
+                padding: 5px 3px
+            }
+
+            .footer__btn[data-v-e9f91210] {
+                background-color: var(--white);
+                border: 2px solid #1d4ed8;
+                border-radius: 8px;
+                color: #1d4ed8;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 8px 16px;
+                transition: background-color .3s ease
+            }
+
+            .footer__btn[data-v-e9f91210]:hover {
+                background-color: #1d4ed8;
+                color: var(--white)
+            }
+        </style>
+        <style>
+            .footer[data-v-55c80a3e] {
+                background: #ff7207;
+                padding: 1% 0 0
+            }
+
+            .footer a[data-v-55c80a3e],.footer p[data-v-55c80a3e],.footer span[data-v-55c80a3e] {
+                color: #fff;
+                font-size: 18px;
+                text-align: center
+            }
+        </style>
+        <link rel="stylesheet" href="/_nuxt/entry.fTUMyBYp.css" crossorigin>
+        <link rel="stylesheet" href="/_nuxt/principal.BrLtzhI-.css" crossorigin>
+        <link rel="stylesheet" href="/_nuxt/offers.C2KkQrxZ.css" crossorigin>
+        <link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?d253c3e8-3429-4c9c-aea6-a22c7887128e">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/C364UBij.js">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/7bKysGU7.js">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/CHNCZOzO.js">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/CEuO1syW.js">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/zPe9Wduw.js">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/Dp8gl3_3.js">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/HvziESiN.js">
+        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/svl8wzS5.js">
+        <link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/d253c3e8-3429-4c9c-aea6-a22c7887128e.json">
+        <link rel="prefetch" as="script" crossorigin href="/_nuxt/DVcC20vf.js">
+        <link rel="prefetch" as="script" crossorigin href="/_nuxt/DcDu3kFw.js">
+        <link rel="prefetch" as="script" crossorigin href="/_nuxt/DlRCH22K.js">
+        <link rel="prefetch" as="script" crossorigin href="/_nuxt/nmsWMa9E.js">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="El Seguro GNP de auto es uno de los más populares del mercado en México. ¡Mantén tu auto protegido y contrata Seguro de Auto GNP!">
+        <link rel="icon" type="image/png" href="https://prod-mx.sfo3.cdn.digitaloceanspaces.com/insurance/favicon/favicon-gnp.png">
+        <meta name="keywords" content="Seguro GNP, Seguro de Auto GNP, GNP Seguros, Seguros de Auto GNP">
+        <meta name="author" content="https://segurognp.mx">
+        <meta name="max-video-preview" content="30">
+        <meta name="fb:app_id" property="fb:app_id" content>
+        <meta name="og:url" property="og:url" content="https://segurognp.mx/">
+        <meta name="og:type" property="og:type" content="website">
+        <meta name="og:title" property="og:title" content="Seguro GNP - Cotiza tu Seguro de Auto GNP en minutos">
+        <meta name="og:keywords" property="og:keywords" content="Seguro GNP, Seguro de Auto GNP, GNP Seguros, Seguros de Auto GNP">
+        <meta name="og:description" property="og:description" content="El Seguro GNP de auto es uno de los más populares del mercado en México. ¡Mantén tu auto protegido y contrata Seguro de Auto GNP!">
+        <meta name="og:image" property="og:image" content="./img/banner.jpg">
+        <meta name="og:alt" property="og:alt" content="Seguro GNP - Cotiza tu Seguro de Auto GNP en minutos">
+        <link rel="canonical" href="https://segurognp.mx/">
+        <script>
+            window.dataLayer = window.dataLayer || [];
+        </script>
+        <script>
+            window.onload = function() {
+                setTimeout(initGTM, 3800);
+                // Retrasar la carga de GTM 3.8 segundos después de que se complete la carga de la página
+            }
+            ;
+            document.addEventListener('scroll', initGTMOnEvent);
+            document.addEventListener('mousemove', initGTMOnEvent);
+            document.addEventListener('touchstart', initGTMOnEvent);
+            function initGTMOnEvent(event) {
+                initGTM();
+                event.currentTarget.removeEventListener(event.type, initGTMOnEvent);
+            }
+            function initGTM() {
+                if (window.gtmDidInit) {
+                    return false;
+                }
+                window.gtmDidInit = true;
+                const script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.async = true;
+                script.onload = () => {
+                    dataLayer.push({
+                        event: 'gtm.js',
+                        'gtm.start': new Date().getTime(),
+                        'gtm.uniqueEventId': 0
+                    });
+                }
+                ;
+                script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-MQMMP8B';
+                document.head.appendChild(script);
+            }
+        </script>
+        <script type="module" src="/_nuxt/C364UBij.js" crossorigin></script>
+    </head>
+    <body>
+        <div id="__nuxt">
+            <div id="botonTop">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-xl-10 offset-xl-1 px-0">
+                            <div class="navbar m-0 p-0 float-end my-2">
+                                <div class="btnTel">
+                                    <a id="idTelDID" href="tel:55null" class="btn">
+                                        <p>LLAMA GRATIS</p>
+                                        <div class="imgTelW">
+                                            <img src="/img/tel-blanco.svg" alt="tel" width="25" height="25" class="img-fluid">
+                                            <b>(55) </b>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:none;" data-v-89ba8a19>
+                    <button class="botonTop" data-v-89ba8a19>
+                        <img src="data:image/svg+xml,%3Csvg%20width%3D%2264px%22%20height%3D%2264px%22%20viewBox%3D%220%20-4.5%2020%2020%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20fill%3D%22%23000000%22%3E%3Cg%20id%3D%22SVGRepo_bgCarrier%22%20stroke-width%3D%220%22%3E%3C%2Fg%3E%3Cg%20id%3D%22SVGRepo_tracerCarrier%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fg%3E%3Cg%20id%3D%22SVGRepo_iconCarrier%22%3E%20%3Ctitle%3Earrow_up%20%5B%23fff340%5D%3C%2Ftitle%3E%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%20%3Cdefs%3E%20%3C%2Fdefs%3E%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%20%3Cg%20id%3D%22Dribbble-Light-Preview%22%20transform%3D%22translate(-140.000000%2C%20-6683.000000)%22%20fill%3D%22%23fff%22%3E%20%3Cg%20id%3D%22icons%22%20transform%3D%22translate(56.000000%2C%20160.000000)%22%3E%20%3Cpath%20d%3D%22M84%2C6532.61035%20L85.4053672%2C6534%20L94.0131154%2C6525.73862%20L94.9311945%2C6526.61986%20L94.9261501%2C6526.61502%20L102.573446%2C6533.95545%20L104%2C6532.58614%20C101.8864%2C6530.55736%2095.9854722%2C6524.89321%2094.0131154%2C6523%20C92.5472155%2C6524.40611%2093.9757869%2C6523.03486%2084%2C6532.61035%22%20id%3D%22arrow_up-%5B%23fff340%5D%22%3E%20%3C%2Fpath%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E" width="19" height="19" alt="Top" class="botonTopImg" data-v-89ba8a19>
+                        <span class="botonTopSpan" data-v-89ba8a19>Ir Arriba</span>
+                    </button>
+                </div>
+                <div class="gnpautoseguro.mx-- VERSION 2"></div>
+                <!--[-->
+                <div class="container-fluid">
+                    <div class="row bg-gral" data-v-587b92b6>
+                        <div class="col-12 px-0" data-v-587b92b6>
+                            <div class="container container-xleo" data-v-587b92b6>
+                                <div class="row" data-v-587b92b6>
+                                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 mt-md-3 mb-md-3 d-md-block d-sm-none d-none" data-v-587b92b6>
+                                        <div class="card" style="padding:0;border-radius:0;box-shadow:none;border:none;height:100%;" data-v-587b92b6>
+                                            <div class="card-body my-5" style="padding:5px;" data-v-587b92b6>
+                                                <div class="row" data-v-587b92b6>
+                                                    <div class="col-12" data-v-587b92b6>
+                                                        <img src="https://prod-mx.sfo3.cdn.digitaloceanspaces.com/insurance/gnp/logotipo-agente.png" alt="gnp logotipo" class="d-block m-auto img-fluid" width="172" height="98" data-v-587b92b6>
+                                                    </div>
+                                                </div>
+                                                <div class="row" data-v-587b92b6>
+                                                    <ul class="col-10 offset-1 mb-0 py-1" data-v-587b92b6>
+                                                        <li class="text-muted d-block float-start" data-v-587b92b6>
+                                                            <img src="/img/checkGreen.svg" width="16" height="16" alt="check" class="m-2" data-v-587b92b6>
+                                                            <small class="" data-v-587b92b6>Asistencia Vial GNP</small>
+                                                        </li>
+                                                        <li class="text-muted d-block float-start" data-v-587b92b6>
+                                                            <img src="/img/checkGreen.svg" width="16" height="16" alt="check" class="m-2" data-v-587b92b6>
+                                                            <small class="" data-v-587b92b6>Asistencia en viajes</small>
+                                                        </li>
+                                                        <li class="text-muted d-block float-start" data-v-587b92b6>
+                                                            <img src="/img/checkGreen.svg" width="16" height="16" alt="check" class="m-2" data-v-587b92b6>
+                                                            <small class="" data-v-587b92b6>Daños materiales a tu vehículo y robo</small>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="row" data-v-587b92b6>
+                                                    <div class="col-12 mt-2" style="position:relative;" data-v-587b92b6>
+                                                        <picture data-v-587b92b6>
+                                                            <source type="image/webp" srcset="/img/auto.webp" data-v-587b92b6>
+                                                            <source type="image/png" srcset="/img/auto.jpg" data-v-587b92b6>
+                                                            <img class="d-block m-auto img-fluid" src="/img/auto.jpg" alt="Auto" width="200" height="80" data-v-587b92b6>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-11 mx-auto col-md-8 col-lg-9 mt-3 mb-md-3 px-md-3 px-lg-5 bg-white" style="box-shadow:0 0 10px 3px rgb(25 66 136 / 23%);" data-v-587b92b6>
+                                        <div class="row mb-3 mt-3" data-v-587b92b6>
+                                            <div class="col-4 d-block d-md-none m-auto" style="position:relative;" data-v-587b92b6>
+                                                <img src="https://prod-mx.sfo3.cdn.digitaloceanspaces.com/insurance/gnp/logotipo-agente.png" alt="gnp logotipo" class="d-block m-auto img-fluid" width="172" height="98" data-v-587b92b6>
+                                            </div>
+                                            <div class="col-8 col-md-12" data-v-587b92b6>
+                                                <h1 class="text-center mt-3 font-weight-bold" data-v-587b92b6>Seguro de Auto GNP</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row d-md-none" data-v-587b92b6>
+                                            <div class="col-4 d-block d-md-none m-auto" style="position:relative;" data-v-587b92b6></div>
+                                            <span class="h3 d-block text-center" data-v-587b92b6>Cargando... Cargando... Cargando... Cargando...</span>
+                                        </div>
+                                        <div class="row d-none d-md-block" data-v-587b92b6>
+                                            <div class="col-4 d-block d-md-none m-auto" style="position:relative;" data-v-587b92b6></div>
+                                            <div class="col-8 col-md-12" data-v-587b92b6>
+                                                <span class="h3 d-block text-center" data-v-587b92b6>
+                                                <!---->
+                                                Cargando... Cargando... Cargando... Cargando...</span>
+                                            </div>
+                                        </div>
+                                        <form class="row p-3 mt-3" id="formcotizar" method="POST" novalidate data-v-587b92b6 data-v-04171a05>
+                                            <div class="col-12 mb-2" data-v-04171a05>
+                                                <div class="multiCard multiSelectHeight form-select" tabindex="0" data-v-04171a05 data-v-a58dec77>
+                                                    <div class="contentList" data-v-a58dec77>
+                                                        <span class="textMulti" data-v-a58dec77>Selecciona una Marca</span>
+                                                        <!--[-->
+                                                        <!--]-->
+                                                    </div>
+                                                    <div style="display:none;" class="showListMulti" data-v-a58dec77>
+                                                        <ul class="optionsMulti" data-v-a58dec77>
+                                                        <!--[-->
+                                                        <!--]-->
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <small style="display:none;" class="marcaReq" data-v-04171a05>
+                                                    <span data-v-04171a05>El campo Marca es requerido</span>
+                                                </small>
+                                                <small style="display:none;" class="modeloReq" data-v-04171a05>
+                                                    <span data-v-04171a05>El campo Modelo es requerido</span>
+                                                </small>
+                                                <small style="display:none;" class="descripcionReq" data-v-04171a05>
+                                                    <span data-v-04171a05>El campo Descripción es requerido</span>
+                                                </small>
+                                                <small style="display:none;" class="detalleReq" data-v-04171a05>
+                                                    <span data-v-04171a05>El campo SubDescripción es requerido</span>
+                                                </small>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4" data-v-04171a05>
+                                                <div class="form__group" data-v-04171a05>
+                                                    <select name="edad" id="edad" required class="form-select" data-v-04171a05>
+                                                        <option value="" selected data-v-04171a05>Edad del conductor</option>
+                                                        <!--[-->
+                                                        <option data-v-04171a05>18</option>
+                                                        <option data-v-04171a05>19</option>
+                                                        <option data-v-04171a05>20</option>
+                                                        <option data-v-04171a05>21</option>
+                                                        <option data-v-04171a05>22</option>
+                                                        <option data-v-04171a05>23</option>
+                                                        <option data-v-04171a05>24</option>
+                                                        <option data-v-04171a05>25</option>
+                                                        <option data-v-04171a05>26</option>
+                                                        <option data-v-04171a05>27</option>
+                                                        <option data-v-04171a05>28</option>
+                                                        <option data-v-04171a05>29</option>
+                                                        <option data-v-04171a05>30</option>
+                                                        <option data-v-04171a05>31</option>
+                                                        <option data-v-04171a05>32</option>
+                                                        <option data-v-04171a05>33</option>
+                                                        <option data-v-04171a05>34</option>
+                                                        <option data-v-04171a05>35</option>
+                                                        <option data-v-04171a05>36</option>
+                                                        <option data-v-04171a05>37</option>
+                                                        <option data-v-04171a05>38</option>
+                                                        <option data-v-04171a05>39</option>
+                                                        <option data-v-04171a05>40</option>
+                                                        <option data-v-04171a05>41</option>
+                                                        <option data-v-04171a05>42</option>
+                                                        <option data-v-04171a05>43</option>
+                                                        <option data-v-04171a05>44</option>
+                                                        <option data-v-04171a05>45</option>
+                                                        <option data-v-04171a05>46</option>
+                                                        <option data-v-04171a05>47</option>
+                                                        <option data-v-04171a05>48</option>
+                                                        <option data-v-04171a05>49</option>
+                                                        <option data-v-04171a05>50</option>
+                                                        <option data-v-04171a05>51</option>
+                                                        <option data-v-04171a05>52</option>
+                                                        <option data-v-04171a05>53</option>
+                                                        <option data-v-04171a05>54</option>
+                                                        <option data-v-04171a05>55</option>
+                                                        <option data-v-04171a05>56</option>
+                                                        <option data-v-04171a05>57</option>
+                                                        <option data-v-04171a05>58</option>
+                                                        <option data-v-04171a05>59</option>
+                                                        <option data-v-04171a05>60</option>
+                                                        <option data-v-04171a05>61</option>
+                                                        <option data-v-04171a05>62</option>
+                                                        <option data-v-04171a05>63</option>
+                                                        <option data-v-04171a05>64</option>
+                                                        <option data-v-04171a05>65</option>
+                                                        <option data-v-04171a05>66</option>
+                                                        <option data-v-04171a05>67</option>
+                                                        <option data-v-04171a05>68</option>
+                                                        <option data-v-04171a05>69</option>
+                                                        <option data-v-04171a05>70</option>
+                                                        <option data-v-04171a05>71</option>
+                                                        <option data-v-04171a05>72</option>
+                                                        <option data-v-04171a05>73</option>
+                                                        <option data-v-04171a05>74</option>
+                                                        <option data-v-04171a05>75</option>
+                                                        <option data-v-04171a05>76</option>
+                                                        <option data-v-04171a05>77</option>
+                                                        <option data-v-04171a05>78</option>
+                                                        <option data-v-04171a05>79</option>
+                                                        <option data-v-04171a05>80</option>
+                                                        <option data-v-04171a05>81</option>
+                                                        <option data-v-04171a05>82</option>
+                                                        <option data-v-04171a05>83</option>
+                                                        <option data-v-04171a05>84</option>
+                                                        <option data-v-04171a05>85</option>
+                                                        <option data-v-04171a05>86</option>
+                                                        <option data-v-04171a05>87</option>
+                                                        <option data-v-04171a05>88</option>
+                                                        <option data-v-04171a05>89</option>
+                                                        <option data-v-04171a05>90</option>
+                                                        <option data-v-04171a05>91</option>
+                                                        <option data-v-04171a05>92</option>
+                                                        <option data-v-04171a05>93</option>
+                                                        <option data-v-04171a05>94</option>
+                                                        <option data-v-04171a05>95</option>
+                                                        <option data-v-04171a05>96</option>
+                                                        <option data-v-04171a05>97</option>
+                                                        <!--]-->
+                                                    </select>
+                                                    <small style="display:none;" class="edadReq" data-v-04171a05>
+                                                        <span data-v-04171a05>El campo Edad es requerido</span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4" data-v-04171a05>
+                                                <div class="form__group" data-v-04171a05>
+                                                    <select name="genero" required id="genero" class="form-select" data-v-04171a05>
+                                                        <option value="" selected data-v-04171a05>Selecciona tu Género</option>
+                                                        <option value="M" data-v-04171a05>Masculino</option>
+                                                        <option value="F" data-v-04171a05>Femenino</option>
+                                                    </select>
+                                                    <small style="display:none;" class="generoReq" data-v-04171a05>
+                                                        <span data-v-04171a05>El campo Género es requerido</span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4" data-v-04171a05>
+                                                <div class="form__group" data-v-04171a05>
+                                                    <div class="form-floating" data-v-04171a05>
+                                                        <input title="Código Postal" type="tel" name="cp" id="cp" required maxlength="5" minlength="5" value="" class="form-control" placeholder="Código Postal" data-v-04171a05>
+                                                        <label for="cp" data-v-04171a05>Código Postal</label>
+                                                    </div>
+                                                    <small style="display:none;" class="input-error cpReq" data-v-04171a05>
+                                                        <span data-v-04171a05>El campo Código Postal es requerido</span>
+                                                    </small>
+                                                    <small style="display:none;" class="input-error cpInc" data-v-04171a05>
+                                                        <span data-v-04171a05>Escribe tu código postal a 5 dígitos</span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4" data-v-04171a05>
+                                                <div class="form__group" data-v-04171a05>
+                                                    <div class="form-floating" data-v-04171a05>
+                                                        <input title="Nombre" type="text" name="nombre" id="nombre" required pattern="[A-Za-z\s]{3,50}" value="" class="form-control" placeholder="Nombre" data-v-04171a05>
+                                                        <label for="nombre" data-v-04171a05>Escribe tu Nombre</label>
+                                                    </div>
+                                                    <small style="display:none;" class="input-error nombreReq" data-v-04171a05>
+                                                        <span data-v-04171a05>El campo Nombre es requerido</span>
+                                                    </small>
+                                                    <small style="display:none;" class="input-error nombreInc" data-v-04171a05>
+                                                        <span data-v-04171a05>Escribe el Nombre correcto</span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4" data-v-04171a05>
+                                                <div class="form__group" data-v-04171a05>
+                                                    <div class="form-floating" data-v-04171a05>
+                                                        <input title="E-mail" type="email" name="correo" id="correo" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" minlength="8" maxlength="50" value="" class="form-control" placeholder="E-mail" data-v-04171a05>
+                                                        <label for="correo" data-v-04171a05>Escribe tu E-mail</label>
+                                                    </div>
+                                                    <small style="display:none;" class="input-error correoReq" data-v-04171a05>
+                                                        <span data-v-04171a05>El campo E-mail es requerido</span>
+                                                    </small>
+                                                    <small style="display:none;" class="input-error correoInc" data-v-04171a05>
+                                                        <span data-v-04171a05>Ejemplo: tuemail@email.com</span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4" data-v-04171a05>
+                                                <div class="form__group" data-v-04171a05>
+                                                    <div class="form-floating" data-v-04171a05>
+                                                        <input title="Teléfono" type="tel" name="telefono" id="telefono" required maxlength="10" minlength="10" value="" class="form-control" placeholder="Teléfono" data-v-04171a05>
+                                                        <label for="telefono" data-v-04171a05>Escribe tu Teléfono</label>
+                                                    </div>
+                                                    <small style="display:none;" class="input-error telefonoReq" data-v-04171a05>
+                                                        <span data-v-04171a05>El campo Teléfono es requerido</span>
+                                                    </small>
+                                                    <small style="display:none;" class="input-error telefonoInc" data-v-04171a05>
+                                                        <span data-v-04171a05>Escribe tu número a 10 dígitos</span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" id="gclid_field" name="gclid_field" value="" style="height:0px;border:none;visibility:hidden;" data-v-04171a05>
+                                            <div class="col-12 mb-lg-0" data-v-04171a05>
+                                                <!--[-->
+                                                <div class="btn__privacy" data-v-532b50ec>
+                                                    <div class="switch--active switch" aria-checked="true" role="switch" aria-label="Privacidad switch button" data-v-532b50ec>
+                                                        <div class="switch__circle--active switch__circle" data-v-532b50ec></div>
+                                                    </div>
+                                                    <p class="btn__text" data-v-532b50ec>Acepto que he leído el Aviso de privacidad</p>
+                                                </div>
+                                                <!---->
+                                                <!--]-->
+                                            </div>
+                                            <div class="col-12 mx-auto pb-3" data-v-04171a05>
+                                                <button id="btnCotizarAuto" type="submit" class="btn btn-success d-flex align-items-center justify-content-center gap-2" data-v-04171a05>
+                                                    Cotizar Gratis <img src="data:image/svg+xml,%3Csvg%20viewBox%3D%22-4.5%200%2020%2020%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20fill%3D%22%23000000%22%3E%3Cg%20id%3D%22SVGRepo_bgCarrier%22%20stroke-width%3D%220%22%3E%3C%2Fg%3E%3Cg%20id%3D%22SVGRepo_tracerCarrier%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fg%3E%3Cg%20id%3D%22SVGRepo_iconCarrier%22%3E%20%3Ctitle%3Earrow_right%20%5B%23ffffff%5D%3C%2Ftitle%3E%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%20%3Cdefs%3E%20%3C%2Fdefs%3E%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%20%3Cg%20id%3D%22Dribbble-Light-Preview%22%20transform%3D%22translate(-305.000000%2C%20-6679.000000)%22%20fill%3D%22%23ffffff%22%3E%20%3Cg%20id%3D%22icons%22%20transform%3D%22translate(56.000000%2C%20160.000000)%22%3E%20%3Cpath%20d%3D%22M249.365851%2C6538.70769%20L249.365851%2C6538.70769%20C249.770764%2C6539.09744%20250.426289%2C6539.09744%20250.830166%2C6538.70769%20L259.393407%2C6530.44413%20C260.202198%2C6529.66364%20260.202198%2C6528.39747%20259.393407%2C6527.61699%20L250.768031%2C6519.29246%20C250.367261%2C6518.90671%20249.720021%2C6518.90172%20249.314072%2C6519.28247%20L249.314072%2C6519.28247%20C248.899839%2C6519.67121%20248.894661%2C6520.31179%20249.302681%2C6520.70653%20L257.196934%2C6528.32352%20C257.601847%2C6528.71426%20257.601847%2C6529.34685%20257.196934%2C6529.73759%20L249.365851%2C6537.29462%20C248.960938%2C6537.68437%20248.960938%2C6538.31795%20249.365851%2C6538.70769%22%20id%3D%22arrow_right-%5B%23ffffff%5D%22%3E%20%3C%2Fpath%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E" width="25" height="25" alt="flecha" data-v-04171a05>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row" data-v-587b92b6>
+                                    <div class="col-6 col-md-2 offset-md-4 offset-lg-3 my-2" data-v-587b92b6>
+                                        <img src="https://prod-mx.sfo3.cdn.digitaloceanspaces.com/promos/ordinary/wp/payments/payments.svg" class="img-fluid d-block m-auto" alt="Tarjeta de crédito" width="135" height="40" data-v-587b92b6>
+                                    </div>
+                                    <div class="col-6 col-lg-3 offset-lg-4 my-2 text-end" data-v-587b92b6>
+                                        <img src="/img/candado.svg" class="img-fluid d-inline-block m-auto" alt="Tarjeta de crédito" width="20" height="20" data-v-587b92b6>
+                                        <small class="text-start tuinfo d-inline-block text-white" data-v-587b92b6>Tu información está segura</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container my-3 my-lg-5">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <img src="/img/logo1.svg" alt="logo1" width="120" height="70" class="img-fluid">
+                                    <p class="b1 mb-0">Protege tu auto</p>
+                                    <p class="b2 mb-0">con las mejores coberturas</p>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <img src="/img/logo2.svg" alt="logo1" width="120" height="70" class="img-fluid">
+                                    <p class="b1 mb-0">Descuentos Increíbles</p>
+                                    <p class="b2 mb-0">ahorra en tu póliza</p>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <img src="/img/logo3.svg" alt="logo1" width="120" height="70" class="img-fluid">
+                                    <p class="b1 mb-0">Tu póliza hoy mismo</p>
+                                    <p class="b2 mb-0">contrata 100% online</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 cont p-0">
+                            <section class="bgColor">
+                                <div class="py-md-5">
+                                    <div class="col-xl-10 offset-xl-1 py-1">
+                                        <h2>¡Contrata la mejor protección con el Seguro GNP!</h2>
+                                        <p>Mantener protegido tu vehículo es una de las primeras cosas que debes hacer al adquirirlo, es por ello que un Seguro GNP de auto puede ser la mejor opción para ti.</p>
+                                        <p>Seguros GNP tiene coberturas para cubrir todas las necesidades que presentan los conductores, y así podrán estar respaldados por una de las mejores aseguradoras en la República Mexicana para conducir tranquilos a lo largo del país.</p>
+                                        <p>La aseguradora cuenta con muchos años de experiencia que losrespaldan, por lo que están conscientes de todos los riesgos a los que estás expuesto, por eso crearon planes perfectos para que cuentes con la mejor protección y transites por las distintas vialidades de México sin problemas o preocupaciones.</p>
+                                        <p>Conoce los Seguros de Auto GNP y contrata el plan que más se adapte a tus necesidades y presupuesto, además descubrirás que cotizar y contratar tu seguro de auto nunca había sido tan sencillo, y GNP lo hace posible.</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="col-xl-10 offset-xl-1 py-md-4">
+                                    <h2>Beneficios exclusivos con el Seguro GNP</h2>
+                                    <p>En GNP se preocupan por los conductores, por lo que buscan que tengan la mejor protección posible para ellos y sus vehículos, por eso diseñaron coberturas que te ofrecen beneficios únicos con los que podrás estar respaldado ante cualquier accidente vial o siniestro.</p>
+                                    <p>Con el Seguro GNP podrás disfrutar de los siguientes beneficios:</p>
+                                    <ul>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Asistencia vial y Asistencia legal: Apoyo en caso de fallas mecánicas o en caso de que se necesite de un abogado. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Responsabilidad Civil: Cubre daños que se provoquen a terceros en sus bienes o personas. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Gastos Médicos: Cubre los gastos que se generen por lesiones al conductor y ocupantes. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Club GNP Autos: Grupo de expertos que te apoyarán ante muchas adversidades. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Asistencia en Viajes: Beneficios exclusivos mientras te encuentres fuera de tu ciudad. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Reparación y pago de Daños Materiales: GNP te brinda el apoyo necesario si tu vehículo sufre daños. 
+                                        </li>
+                                    </ul>
+                                    <p>Contrata tu Seguro de Auto GNP y mantente protegido por una de las mejores aseguradoras en el país.</p>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="col-xl-10 offset-xl-1 py-md-4">
+                                    <h2>Coberturas ideales para ti con tu Seguro para Auto GNP</h2>
+                                    <p>GNP cuenta con diversas coberturas para que puedas elegir la que más se adapte a lo que buscas en cuanto a la protección de tu automóvil.</p>
+                                    <ul>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Seguro de Auto Individual: GNP se preocupa por tu patrimonio, por lo que este seguro se adapta a tus necesidades primordiales para poder proteger tu vehículo ante muchas situaciones. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Seguro Autos Turista GNP: Cobertura con la que puedes viajar desde el extranjero a México y tu auto permanecerá siempre protegido. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Seguro Auto Élite: Es la cobertura amplia que te ofrecen, siendo un plan muy completo con el que podrás estar respaldado ante diversas situaciones. 
+                                        </li>
+                                        <li>
+                                            <img src="/img/check.svg" alt="check" class="img-fluid" width="16" height="16">Seguro Básico Estandarizado: Es el plan mínimo con el que debes contar para poder transitar por México, y con el que te encuentras respaldado por daños que causes a terceros. 
+                                        </li>
+                                    </ul>
+                                    <p>Cotiza y contrata tu seguro de auto y disfruta de las coberturas que GNP te ofrece.</p>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="col-xl-10 offset-xl-1 py-md-4">
+                                    <h3>¡Protege tu vehículo con GNP Seguros!</h3>
+                                    <p>GNP Seguros puede ser tu mejor opción, ya que cuentan con experiencia y solidez en el sector asegurador, por lo que estarás protegido en todo México y tendrás el respaldo necesario ante cualquier adversidad.</p>
+                                    <p>Contratar un Seguro de Auto con GNP es muy sencillo, solo necesitas datos básicos y en cuestión de minutos estarás contratando la cobertura que más se adapte a lo que buscas.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <!--]-->
+                <div class="container-fluid" data-v-55c80a3e>
+                    <div class="row bg-light" data-v-55c80a3e>
+                        <div class="col-5 offset-1 text-start" data-v-55c80a3e>
+                            <a href="/" rel="noopener" data-v-55c80a3e>
+                                <img src="https://prod-mx.sfo3.cdn.digitaloceanspaces.com/insurance/gnp/logotipo-agente.png" alt="GNP" class="img-fluid" width="120" height="68" data-v-55c80a3e>
+                            </a>
+                        </div>
+                        <div class="col-5 text-end" data-v-55c80a3e>
+                            <span style="font-size:18px;" class="font-weight-bold" data-v-55c80a3e></span>
+                            <br data-v-55c80a3e>
+                            <a href="/" class="priv" data-toggle="modal" data-target="#avisopriv" data-v-55c80a3e>
+                                <span style="font-size:16px;" data-v-55c80a3e>-Aviso de privacidad-</span>
+                            </a>
+                        </div>
+                        <div class="col-10 offset-1 text-justify" data-v-55c80a3e>
+                            <small class="font-weight-lighter text-muted" data-v-55c80a3e>*Los precios mostrados en esta página web son proporcionados por la Compañía de Seguros. Este sitio web esta operado por un agente de seguros certificado que te brindará atención 100% personalizada. De , Puedes encontrar mas promociones en  y comparadores online cómo: AhorraSeguros,ComparaYa o MejorSegurodeAuto. </small>
+                        </div>
+                    </div>
+                    <div class="row footer" data-v-55c80a3e>
+                        <div class="col-12" data-v-55c80a3e>
+                            <p data-v-55c80a3e>
+                                <a href="/" data-v-55c80a3e></a>
+                                <b data-v-55c80a3e>|</b>
+                                <span data-v-55c80a3e>Operado por Agente de Seguros Autorizado</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div hidden data-v-55c80a3e>
+                        <svg xmlns="http://www.w3.org/2000/svg" style="display:none;" data-v-55c80a3e>
+                            <symbol id="llamada" viewBox="0 0 473.806 473.806" data-v-55c80a3e>
+                                <title data-v-55c80a3e>llamada</title>
+                                <path fill="#fff" d="M374.456,293.506c-9.7-10.1-21.4-15.5-33.8-15.5c-12.3,0-24.1,5.3-34.2,15.4l-31.6,31.5c-2.6-1.4-5.2-2.7-7.7-4 c-3.6-1.8-7-3.5-9.9-5.3c-29.6-18.8-56.5-43.3-82.3-75c-12.5-15.8-20.9-29.1-27-42.6c8.2-7.5,15.8-15.3,23.2-22.8 c2.8-2.8,5.6-5.7,8.4-8.5c21-21,21-48.2,0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5c-6-6.2-12.3-12.6-18.8-18.6 c-9.7-9.6-21.3-14.7-33.5-14.7s-24,5.1-34,14.7c-0.1,0.1-0.1,0.1-0.2,0.2l-34,34.3c-12.8,12.8-20.1,28.4-21.7,46.5 c-2.4,29.2,6.2,56.4,12.8,74.2c16.2,43.7,40.4,84.2,76.5,127.6c43.8,52.3,96.5,93.6,156.7,122.7c23,10.9,53.7,23.8,88,26 c2.1,0.1,4.3,0.2,6.3,0.2c23.1,0,42.5-8.3,57.7-24.8c0.1-0.2,0.3-0.3,0.4-0.5c5.2-6.3,11.2-12,17.5-18.1c4.3-4.1,8.7-8.4,13-12.9 c9.9-10.3,15.1-22.3,15.1-34.6c0-12.4-5.3-24.3-15.4-34.3L374.456,293.506z M410.256,398.806 C410.156,398.806,410.156,398.906,410.256,398.806c-3.9,4.2-7.9,8-12.2,12.2c-6.5,6.2-13.1,12.7-19.3,20 c-10.1,10.8-22,15.9-37.6,15.9c-1.5,0-3.1,0-4.6-0.1c-29.7-1.9-57.3-13.5-78-23.4c-56.6-27.4-106.3-66.3-147.6-115.6 c-34.1-41.1-56.9-79.1-72-119.9c-9.3-24.9-12.7-44.3-11.2-62.6c1-11.7,5.5-21.4,13.8-29.7l34.1-34.1c4.9-4.6,10.1-7.1,15.2-7.1 c6.3,0,11.4,3.8,14.6,7c0.1,0.1,0.2,0.2,0.3,0.3c6.1,5.7,11.9,11.6,18,17.9c3.1,3.2,6.3,6.4,9.5,9.7l27.3,27.3 c10.6,10.6,10.6,20.4,0,31c-2.9,2.9-5.7,5.8-8.6,8.6c-8.4,8.6-16.4,16.6-25.1,24.4c-0.2,0.2-0.4,0.3-0.5,0.5 c-8.6,8.6-7,17-5.2,22.7c0.1,0.3,0.2,0.6,0.3,0.9c7.1,17.2,17.1,33.4,32.3,52.7l0.1,0.1c27.6,34,56.7,60.5,88.8,80.8 c4.1,2.6,8.3,4.7,12.3,6.7c3.6,1.8,7,3.5,9.9,5.3c0.4,0.2,0.8,0.5,1.2,0.7c3.4,1.7,6.6,2.5,9.9,2.5c8.3,0,13.5-5.2,15.2-6.9 l34.2-34.2c3.4-3.4,8.8-7.5,15.1-7.5c6.2,0,11.3,3.9,14.4,7.3c0.1,0.1,0.1,0.1,0.2,0.2l55.1,55.1 C420.456,377.706,420.456,388.206,410.256,398.806z" data-v-55c80a3e></path>
+                                <path fill="#fff" d="M256.056,112.706c26.2,4.4,50,16.8,69,35.8s31.3,42.8,35.8,69c1.1,6.6,6.8,11.2,13.3,11.2c0.8,0,1.5-0.1,2.3-0.2 c7.4-1.2,12.3-8.2,11.1-15.6c-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3,3.7-15.6,11 S248.656,111.506,256.056,112.706z" data-v-55c80a3e></path>
+                                <path fill="#fff" d="M473.256,209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2,3.7-15.5,11 c-1.2,7.4,3.7,14.3,11.1,15.6c46.6,7.9,89.1,30,122.9,63.7c33.8,33.8,55.8,76.3,63.7,122.9c1.1,6.6,6.8,11.2,13.3,11.2 c0.8,0,1.5-0.1,2.3-0.2C469.556,223.306,474.556,216.306,473.256,209.006z" data-v-55c80a3e></path>
+                            </symbol>
+                            <symbol id="proximo" viewBox="0 0 477.175 477.175" data-v-55c80a3e>
+                                <title data-v-55c80a3e>proximo</title>
+                                <path fill="#fff" d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z " data-v-55c80a3e></path>
+                            </symbol>
+                            <symbol id="carrito-de-compra" viewBox="0 0 512.001 512.001" data-v-55c80a3e>
+                                <title data-v-55c80a3e>carrito-de-compra</title>
+                                <g data-v-55c80a3e>
+                                    <g data-v-55c80a3e>
+                                        <path fill="#fff" d="M503.142,79.784c-7.303-8.857-18.128-13.933-29.696-13.933H176.37c-6.085,0-11.023,4.938-11.023,11.023 c0,6.085,4.938,11.023,11.023,11.023h297.07c5.032,0,9.541,2.1,12.688,5.914c3.197,3.88,4.475,8.995,3.511,13.972l-44.054,220.282 c-1.709,7.871-8.383,13.366-16.232,13.366H184.323L83.158,36.854C77.69,21.234,62.886,10.74,45.932,10.74 c-0.005,0-0.011,0-0.017,0c-14.38,0.496-28.963,0.491-32.535,0.248c-3.555-0.772-7.397,0.22-10.152,2.976 c-4.305,4.305-4.305,11.282,0,15.587c3.412,3.412,4.564,4.564,43.068,3.23c7.22,0,13.674,4.564,15.995,11.188l103.618,311.962 c1.499,4.503,5.71,7.545,10.461,7.545h252.982c18.31,0,33.841-12.638,37.815-30.909l44.109-220.525 C513.503,100.513,510.544,88.757,503.142,79.784z" data-v-55c80a3e></path>
+                                    </g>
+                                </g>
+                                <g data-v-55c80a3e>
+                                    <g data-v-55c80a3e>
+                                        <path fill="#fff" d="M424.392,424.11H223.77c-6.785,0-13.162-4.674-15.46-11.233l-21.495-63.935c-1.94-5.771-8.207-8.885-13.961-6.934 c-5.771,1.935-8.874,8.19-6.934,13.961l21.539,64.061c5.473,15.625,20.062,26.119,36.31,26.119h200.622 c6.085,0,11.023-4.933,11.023-11.018S430.477,424.11,424.392,424.11z" data-v-55c80a3e></path>
+                                    </g>
+                                </g>
+                                <g data-v-55c80a3e>
+                                    <g data-v-55c80a3e>
+                                        <path fill="#fff" d="M231.486,424.104c-21.275,0-38.581,17.312-38.581,38.581s17.306,38.581,38.581,38.581s38.581-17.312,38.581-38.581 S252.761,424.104,231.486,424.104z M231.486,479.22c-9.116,0-16.535-7.419-16.535-16.535c0-9.116,7.419-16.535,16.535-16.535 c9.116,0,16.535,7.419,16.535,16.535C248.021,471.802,240.602,479.22,231.486,479.22z" data-v-55c80a3e></path>
+                                    </g>
+                                </g>
+                                <g data-v-55c80a3e>
+                                    <g data-v-55c80a3e>
+                                        <path fill="#fff" d="M424.392,424.104c-21.269,0-38.581,17.312-38.581,38.581s17.312,38.581,38.581,38.581 c21.269,0,38.581-17.312,38.581-38.581S445.661,424.104,424.392,424.104z M424.392,479.22c-9.116,0-16.535-7.419-16.535-16.535 c0-9.116,7.419-16.535,16.535-16.535c9.116,0,16.535,7.419,16.535,16.535C440.927,471.802,433.508,479.22,424.392,479.22z" data-v-55c80a3e></path>
+                                    </g>
+                                </g>
+                            </symbol>
+                            <symbol id="check" viewBox="0 0 490.4 490.4" data-v-55c80a3e>
+                                <title data-v-55c80a3e>check</title>
+                                <path fill="#30c13e" d="M309.4,185.5l-94,93.5l-34.3-34.5c-4.8-4.8-12.5-4.8-17.3-0.1c-4.8,4.7-4.8,12.5-0.1,17.3l42.9,43.2 c2.4,2.4,5.5,3.6,8.7,3.6c3.1,0,6.2-1.2,8.6-3.6l102.7-102.1c4.8-4.8,4.8-12.5,0.1-17.3C321.9,180.7,314.2,180.7,309.4,185.5z" data-v-55c80a3e></path>
+                            </symbol>
+                            <symbol id="error" viewBox="0 0 475.2 475.2" data-v-55c80a3e>
+                                <title data-v-55c80a3e>error</title>
+                                <path fill="#f34" d="M342.3,132.9c-5.3-5.3-13.8-5.3-19.1,0l-85.6,85.6L152,132.9c-5.3-5.3-13.8-5.3-19.1,0c-5.3,5.3-5.3,13.8,0,19.1 l85.6,85.6l-85.6,85.6c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4l85.6-85.6l85.6,85.6c2.6,2.6,6.1,4,9.5,4 c3.5,0,6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1l-85.4-85.6l85.6-85.6C347.6,146.7,347.6,138.2,342.3,132.9z" data-v-55c80a3e></path>
+                            </symbol>
+                            <symbol id="chevron" viewBox="-74 0 362 362.66667" data-v-55c80a3e>
+                                <title data-v-55c80a3e>chevron</title>
+                                <path d="m213.667969 181.332031c0 4.269531-1.28125 8.535157-3.628907 11.734375l-106.664062 160c-3.839844 5.761719-10.242188 9.601563-17.707031 9.601563h-64c-11.734375 0-21.335938-9.601563-21.335938-21.335938 0-4.265625 1.28125-8.53125 3.628907-11.730469l98.773437-148.269531-98.773437-148.265625c-2.347657-3.199218-3.628907-7.464844-3.628907-11.734375 0-11.730469 9.601563-21.332031 21.335938-21.332031h64c7.464843 0 13.867187 3.839844 17.707031 9.601562l106.664062 160c2.347657 3.199219 3.628907 7.464844 3.628907 11.730469zm0 0" fill="#fff" data-v-55c80a3e></path>
+                            </symbol>
+                            <symbol id="llamada" viewBox="0 0 473.806 473.806" data-v-55c80a3e>
+                                <title data-v-55c80a3e>llamada</title>
+                                <path fill="#3b5999" d="M374.456,293.506c-9.7-10.1-21.4-15.5-33.8-15.5c-12.3,0-24.1,5.3-34.2,15.4l-31.6,31.5c-2.6-1.4-5.2-2.7-7.7-4 c-3.6-1.8-7-3.5-9.9-5.3c-29.6-18.8-56.5-43.3-82.3-75c-12.5-15.8-20.9-29.1-27-42.6c8.2-7.5,15.8-15.3,23.2-22.8 c2.8-2.8,5.6-5.7,8.4-8.5c21-21,21-48.2,0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5c-6-6.2-12.3-12.6-18.8-18.6 c-9.7-9.6-21.3-14.7-33.5-14.7s-24,5.1-34,14.7c-0.1,0.1-0.1,0.1-0.2,0.2l-34,34.3c-12.8,12.8-20.1,28.4-21.7,46.5 c-2.4,29.2,6.2,56.4,12.8,74.2c16.2,43.7,40.4,84.2,76.5,127.6c43.8,52.3,96.5,93.6,156.7,122.7c23,10.9,53.7,23.8,88,26 c2.1,0.1,4.3,0.2,6.3,0.2c23.1,0,42.5-8.3,57.7-24.8c0.1-0.2,0.3-0.3,0.4-0.5c5.2-6.3,11.2-12,17.5-18.1c4.3-4.1,8.7-8.4,13-12.9 c9.9-10.3,15.1-22.3,15.1-34.6c0-12.4-5.3-24.3-15.4-34.3L374.456,293.506z M410.256,398.806 C410.156,398.806,410.156,398.906,410.256,398.806c-3.9,4.2-7.9,8-12.2,12.2c-6.5,6.2-13.1,12.7-19.3,20 c-10.1,10.8-22,15.9-37.6,15.9c-1.5,0-3.1,0-4.6-0.1c-29.7-1.9-57.3-13.5-78-23.4c-56.6-27.4-106.3-66.3-147.6-115.6 c-34.1-41.1-56.9-79.1-72-119.9c-9.3-24.9-12.7-44.3-11.2-62.6c1-11.7,5.5-21.4,13.8-29.7l34.1-34.1c4.9-4.6,10.1-7.1,15.2-7.1 c6.3,0,11.4,3.8,14.6,7c0.1,0.1,0.2,0.2,0.3,0.3c6.1,5.7,11.9,11.6,18,17.9c3.1,3.2,6.3,6.4,9.5,9.7l27.3,27.3 c10.6,10.6,10.6,20.4,0,31c-2.9,2.9-5.7,5.8-8.6,8.6c-8.4,8.6-16.4,16.6-25.1,24.4c-0.2,0.2-0.4,0.3-0.5,0.5 c-8.6,8.6-7,17-5.2,22.7c0.1,0.3,0.2,0.6,0.3,0.9c7.1,17.2,17.1,33.4,32.3,52.7l0.1,0.1c27.6,34,56.7,60.5,88.8,80.8 c4.1,2.6,8.3,4.7,12.3,6.7c3.6,1.8,7,3.5,9.9,5.3c0.4,0.2,0.8,0.5,1.2,0.7c3.4,1.7,6.6,2.5,9.9,2.5c8.3,0,13.5-5.2,15.2-6.9 l34.2-34.2c3.4-3.4,8.8-7.5,15.1-7.5c6.2,0,11.3,3.9,14.4,7.3c0.1,0.1,0.1,0.1,0.2,0.2l55.1,55.1 C420.456,377.706,420.456,388.206,410.256,398.806z" data-v-55c80a3e></path>
+                                <path fill="#3b5999" d="M256.056,112.706c26.2,4.4,50,16.8,69,35.8s31.3,42.8,35.8,69c1.1,6.6,6.8,11.2,13.3,11.2c0.8,0,1.5-0.1,2.3-0.2 c7.4-1.2,12.3-8.2,11.1-15.6c-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3,3.7-15.6,11 S248.656,111.506,256.056,112.706z" data-v-55c80a3e></path>
+                                <path fill="#3b5999" d="M473.256,209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2,3.7-15.5,11 c-1.2,7.4,3.7,14.3,11.1,15.6c46.6,7.9,89.1,30,122.9,63.7c33.8,33.8,55.8,76.3,63.7,122.9c1.1,6.6,6.8,11.2,13.3,11.2 c0.8,0,1.5-0.1,2.3-0.2C469.556,223.306,474.556,216.306,473.256,209.006z" data-v-55c80a3e></path>
+                            </symbol>
+                            <symbol id="next" viewBox="0 -46 417.81333 417" data-v-55c80a3e>
+                                <title data-v-55c80a3e>comprobar</title>
+                                <path d="m159.988281 318.582031c-3.988281 4.011719-9.429687 6.25-15.082031 6.25s-11.09375-2.238281-15.082031-6.25l-120.449219-120.46875c-12.5-12.5-12.5-32.769531 0-45.246093l15.082031-15.085938c12.503907-12.5 32.75-12.5 45.25 0l75.199219 75.203125 203.199219-203.203125c12.503906-12.5 32.769531-12.5 45.25 0l15.082031 15.085938c12.5 12.5 12.5 32.765624 0 45.246093zm0 0" fill="#3b5999" data-v-55c80a3e></path>
+                            </symbol>
+                            <symbol id="estrella" viewBox="0 0 24 24" data-v-55c80a3e>
+                                <title data-v-55c80a3e>estrella</title>
+                                <path d="m23.363 8.584-7.378-1.127-3.307-7.044c-.247-.526-1.11-.526-1.357 0l-3.306 7.044-7.378 1.127c-.606.093-.848.83-.423 1.265l5.36 5.494-1.267 7.767c-.101.617.558 1.08 1.103.777l6.59-3.642 6.59 3.643c.54.3 1.205-.154 1.103-.777l-1.267-7.767 5.36-5.494c.425-.436.182-1.173-.423-1.266z" fill="#ffc107" data-v-55c80a3e></path>
+                            </symbol>
+                        </svg>
+                    </div>
+                </div>
+                <noscript>
+                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXHF73F" height="0" width="0" style="display:none;visibility:hidden;"></iframe>
+                </noscript>
+            </div>
+        </div>
+        <div id="teleports"></div>
+        <script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/_payload.json?d253c3e8-3429-4c9c-aea6-a22c7887128e">
+            [
+                {
+                    "state": 1,
+                    "once": 3,
+                    "_errors": 4,
+                    "serverRendered": 6,
+                    "path": 7,
+                    "prerenderedAt": 8
+                },
+                [
+                    "Reactive",
+                    2
+                ],
+                {
+                },
+                [
+                    "Set"
+                ],
+                [
+                    "ShallowReactive",
+                    5
+                ],
+                {
+                },
+                true,
+                "/",
+                1748280990922
+            ]</script>
+        <script>
+            window.__NUXT__ = {};
+            window.__NUXT__.config = {
+                public: {},
+                app: {
+                    baseURL: "/",
+                    buildId: "d253c3e8-3429-4c9c-aea6-a22c7887128e",
+                    buildAssetsDir: "/_nuxt/",
+                    cdnURL: ""
+                }
+            }
+        </script>
+    </body>
+</html>

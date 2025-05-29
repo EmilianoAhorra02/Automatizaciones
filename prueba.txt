@@ -1,0 +1,3 @@
+   // Selección de Marca
+    cy.get('.multiCard').click(); // Abre el desplegable de marcas
+    cy.get('.itemList').contains('CHEVROLET').click(); // Selecciona una marca
